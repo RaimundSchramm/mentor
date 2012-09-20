@@ -8,6 +8,8 @@
 
 > sudo apt-get update
 
+> sudo apt-get install autoconf automake bison build-essential curl libc6-dev libreadline6 libreadline6-dev libsqlite3-0 libsqlite3-dev libssl-dev libtool libxml2-dev libxslt-dev libxslt1-dev libyaml-dev ncurses-dev openssl sqlite3 zlib1g zlib1g-dev
+
 ## 2. Install Ruby Version Manager (RVM)
 
 ### 2.1 Install prerequisites
