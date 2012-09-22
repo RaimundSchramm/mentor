@@ -47,4 +47,27 @@ set terminal to run command as a login shell
 ### 3.4 Create .rvmrc
 
 ### 3.5 Setup gems
+## 4. Setup IDE/Editor
+### 4.1 Aptana Studio
 
+visit http://www.aptana.com/
+
+### 4.1.1 Install Oracle Java
+
+according to prerequisites
+
+http://www.aptana.com/products/studio3/getting_started
+
+see
+
+http://wiki.ubuntuusers.de/Java/Installation/Oracle_Java?redirect=no
+
+and
+
+http://www.webupd8.org/2012/01/install-oracle-java-jdk-7-in-ubuntu-via.html
+
+> sudo add-apt-repository ppa:webupd8team/java
+
+> sudo apt-get update
+
+> sudo apt-get install oracle-java7-installer
