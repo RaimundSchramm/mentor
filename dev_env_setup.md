@@ -34,6 +34,12 @@ set terminal to run command as a login shell
 
 ### 2.2 Update
 
+## 3. Setup Database
+### 3.1 Postgresql
+#### 3.1.1 Install
+
+> sudo apt-get install postgresql libpq-dev
+
 ## 3. Setup project
 
 ### 3.1 Install Ruby
