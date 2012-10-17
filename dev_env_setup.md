@@ -48,11 +48,81 @@ set terminal to run command as a login shell
 
 ### 3.2 Create rvm gemset
 
+switch to correct ruby in rvm session in terminal
+
+> rvm use ruby-1.9.3-p194-perf@global
+
+TODO: clearify why default gemset does not work
+
+make sure correct ruby is loaded in rvm session in terminal
+
+> ruby -v
+> ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-linux]
+
+create gemset
+
+> rvm gemset create app_name
+
+make sure correct gemset is loaded in rvm session in terminal
+
+> rvm gemset name
+
+ check for recent needed gems for development with rails
+
+> gem li
+> *** LOCAL GEMS ***
+
+add if needed (usually installed by default) TODO: clearify why not with perf-patch
+
+> gem install bundler
+> gem install rake
+> gem install rubygems-bundler
+> gem install rvm
+
+for development with rails install rails now
+
+for latest version
+
+> gem install rails
+
 ### 3.3 Create project
+
+cd into your workspace
+create your rails app
+
+> rails new app_name
 
 ### 3.4 Create .rvmrc
 
-### 3.5 Setup gems
+cd into your app diretory
+create .rvmrc for your project
+
+> echo 'rvm use ruby-1.9.3-p194-perf@gemset_name' > .rvmrc
+
+### 3.5 Setup git repository
+
+cd into app directory
+
+> git init
+> git add .
+> git commit -m "adds initial commit"
+
+setup remote repository on github
+
+configure local repository to work with remote
+
+if ssh is setup
+
+> git remote add origin git@github.com:YourGithubUserName/your_app_name.git
+
+if local repo was set up first
+
+> git pull origin master
+> git push origin master
+
+TODO: clearify why git pull is necessary
+### 3.6 Setup gems
+
 ## 4. Setup IDE/Editor
 ### 4.1 Aptana Studio
 
