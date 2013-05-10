@@ -9,6 +9,7 @@ get target os from anywhere, for VirtualBox download iso-file for example
 #### 1.1.2 Update
 
 > sudo apt-get update
+
 > sudo apt-get upgrade
 
 #### 1.1.3 Install packed software and libraries
