@@ -22,6 +22,17 @@ or
 
 > sudo apt-get install git-core
 
+### 1.2 VirtualBox
+#### 1.2.1 Install or Update
+download, install, start, create vm
+
+#### 1.2.2 Configure
+install Guest User Additions in started VM via TopLevelMenue
+
+setup RAM, CPUs, Graphic Memory, HD before install of OS
+
+restart if necessary
+
 ## 2. Setup RVM (Ruby Version Manager)
 
 ### 2.2 Install as single user
