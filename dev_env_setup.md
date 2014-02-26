@@ -7,10 +7,14 @@
 get target os from anywhere, for VirtualBox download iso-file for example
 
 #### 1.1.2 Update
-
+First, use `update` to synchronize the package index file with its sources.
 > sudo apt-get update
 
+Second, use `upgrade` to install the most recent version of each installed package.
 > sudo apt-get upgrade
+
+Third, use `autoremove` to uninstall obsolete dependencies of packages that were installed automatically.
+> sudo apt-get autoremove
 
 #### 1.1.3 Install packed software and libraries
 
