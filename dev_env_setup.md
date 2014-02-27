@@ -58,6 +58,7 @@ set terminal to run command as a login shell
 #### 3.1.1 Install
 
 > sudo apt-get install postgresql
+
 > sudo apt-get install libpq-dev
 
 #### 3.1.2 set up postgres server
@@ -76,14 +77,17 @@ exit and create dbs
 #### 3.1.4 configure application
 
 configure database.yml
->development:
->  adapter: postgresql
->  encoding: unicode
->  host: localhost
->  username: {your-username}
->  password: {your-password}
->  database: {your-db-dev-name}
->  pool: 5
+
+```
+development:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: {your-username}
+  password: {your-password}
+  database: {your-db-dev-name}
+  pool: 5
+```
 
 ## 3. Setup project
 
