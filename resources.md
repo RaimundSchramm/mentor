@@ -1,7 +1,8 @@
-#Resources
-
-##Books
-
-##Casts and Talks
-
-##Blogs
+####Resources
+-
+#####Books
+=
+#####Casts and Talks
+=
+#####Blogs
+=
