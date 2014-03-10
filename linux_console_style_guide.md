@@ -1,8 +1,8 @@
 ###Linux Console Style Guide
 
 ####Contents
-[Open files in a web browser](#Open files in a web browser)
-[Copy files via SSH in command line](#Copy files via SSH in command line)
+* [Open files in a web browser](#Open files in a web browser)
+* [Copy files via SSH in command line](#Copy files via SSH in command line)
 
 ####Open files in a web browser
 
