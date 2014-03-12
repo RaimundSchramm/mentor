@@ -196,3 +196,7 @@ http://www.webupd8.org/2012/01/install-oracle-java-jdk-7-in-ubuntu-via.html
 > sudo apt-get update
 
 > sudo apt-get install oracle-java7-installer
+
+### 4.2 Sublime Text 2
+
+[set up sublime for console](https://github.com/mhartl/rails_tutorial_sublime_text)
