@@ -5,6 +5,7 @@
 #####Casts and Talks
 ######Robert C. Martin
 - [What killed Smalltalk could kill Ruby](http://www.youtube.com/watch?v=YX3iRjKj7C0)
+- [Ruby Midwest 2011 - Keynote: Architecture the Lost Years](http://www.youtube.com/watch?v=WpkDN78P884)
 
 =
 #####Blogs
