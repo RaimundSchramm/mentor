@@ -10,6 +10,9 @@
 ######Jim Weirich
 - [The Ruby Code Review, a play in three acts](http://www.confreaks.com/videos/1177-rubyconf2008-the-ruby-code-review-a-play-in-three-acts)
 
+######Katrina Owen
+- [Therapeutic Refactoring](http://www.confreaks.com/videos/1071-cascadiaruby2012-therapeutic-refactoring)
+
 =
 #####Blogs
 =
