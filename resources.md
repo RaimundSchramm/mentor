@@ -12,6 +12,7 @@
 
 ######Katrina Owen
 - [Therapeutic Refactoring](http://www.confreaks.com/videos/1071-cascadiaruby2012-therapeutic-refactoring)
+- [Live Refactoring with Geoffrey Grosenbach](http://youtu.be/w_LDi5Ygz3k)
 
 ######Avdi Grimm
 - [Pairing is Caring](http://www.confreaks.com/videos/2519-acr2013-pairing-is-caring)
