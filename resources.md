@@ -17,6 +17,9 @@
 ######Avdi Grimm
 - [Pairing is Caring](http://www.confreaks.com/videos/2519-acr2013-pairing-is-caring)
 
+######Corey Haines
+- [Fast Rails tests](http://youtu.be/bNn6M2vqxHE)
+
 =
 #####Blogs
 =
