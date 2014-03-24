@@ -1,6 +1,9 @@
 ####Resources
 -
 #####Books
+######General Software Development Advice
+- The Pragmatic Programmer
+
 =
 #####Casts and Talks
 ######Robert C. Martin
