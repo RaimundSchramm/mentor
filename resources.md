@@ -25,4 +25,6 @@
 
 =
 #####Blogs
+[Avdi Grimm](http://devblog.avdi.org/)
+
 =
