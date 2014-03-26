@@ -2,7 +2,11 @@
 -
 #####Books
 ######General Software Development Advice
+Dave Thomas, Andrew Hunt
 - The Pragmatic Programmer
+
+Sandi Metz
+- Practical Object-Oriented Design in Ruby
 
 =
 #####Casts and Talks
