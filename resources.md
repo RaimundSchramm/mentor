@@ -8,6 +8,9 @@ Dave Thomas, Andrew Hunt
 Sandi Metz
 - Practical Object-Oriented Design in Ruby
 
+Fields, Harvie, Fowler
+- Refactoring - Ruby Edition
+
 =
 #####Casts and Talks
 ######Robert C. Martin
