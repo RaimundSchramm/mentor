@@ -5,11 +5,16 @@
 Dave Thomas, Andrew Hunt
 - The Pragmatic Programmer
 
+######Ruby
 Sandi Metz
 - Practical Object-Oriented Design in Ruby
 
 Fields, Harvie, Fowler
 - Refactoring - Ruby Edition
+
+######Rails
+Athayde, Williams
+- The Rails View
 
 =
 #####Casts and Talks
