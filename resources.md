@@ -16,6 +16,10 @@ Fields, Harvie, Fowler
 Athayde, Williams
 - The Rails View
 
+######Frontend
+Chaffer, Swedberg
+- Learning jQuery -Third Edition
+
 =
 #####Casts and Talks
 ######Robert C. Martin
