@@ -5,6 +5,9 @@
 Dave Thomas, Andrew Hunt
 - The Pragmatic Programmer
 
+Eric Evans
+- Domain-Driven Design
+
 ######Ruby
 Sandi Metz
 - Practical Object-Oriented Design in Ruby
