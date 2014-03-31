@@ -15,6 +15,9 @@ Sandi Metz
 Fields, Harvie, Fowler
 - Refactoring - Ruby Edition
 
+Chelimsky
+- The RSpec Book
+
 ######Rails
 Athayde, Williams
 - The Rails View
