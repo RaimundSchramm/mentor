@@ -22,6 +22,9 @@ Chelimsky
 Athayde, Williams
 - The Rails View
 
+Rappin
+- Rails Test Prescriptions
+
 ######Frontend
 Chaffer, Swedberg
 - Learning jQuery -Third Edition
