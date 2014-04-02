@@ -12,6 +12,9 @@ Eric Evans
 Sandi Metz
 - Practical Object-Oriented Design in Ruby
 
+Black
+- The Well-Grounded Rubyist
+
 Fields, Harvie, Fowler
 - Refactoring - Ruby Edition
 
