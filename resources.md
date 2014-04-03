@@ -15,6 +15,9 @@ Sandi Metz
 Black
 - The Well-Grounded Rubyist
 
+Olsen
+- Eloquent Ruby
+
 Fields, Harvie, Fowler
 - Refactoring - Ruby Edition
 
