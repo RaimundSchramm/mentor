@@ -31,6 +31,9 @@ Athayde, Williams
 Rappin
 - Rails Test Prescriptions
 
+Chad Fowler
+- Rails Recipes
+
 ######Frontend
 Chaffer, Swedberg
 - Learning jQuery -Third Edition
