@@ -34,6 +34,9 @@ Rappin
 Chad Fowler
 - Rails Recipes
 
+Clark
+- Advanced Rails Recipes
+
 ######Frontend
 Chaffer, Swedberg
 - Learning jQuery -Third Edition
