@@ -41,6 +41,9 @@ Clark
 Chaffer, Swedberg
 - Learning jQuery -Third Edition
 
+Catlin
+- Pragmatic Guide to Sass
+
 =
 #####Casts and Talks
 ######Robert C. Martin
