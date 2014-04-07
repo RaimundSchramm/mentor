@@ -44,6 +44,9 @@ Chaffer, Swedberg
 Catlin
 - Pragmatic Guide to Sass
 
+Hogan
+- HTML5 & CSS
+
 =
 #####Casts and Talks
 ######Robert C. Martin
