@@ -24,6 +24,9 @@ Fields, Harvie, Fowler
 Chelimsky
 - The RSpec Book
 
+Dix
+- Service-Oriented Design With Ruby and Rails
+
 ######Rails
 Athayde, Williams
 - The Rails View
