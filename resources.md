@@ -40,6 +40,9 @@ Chad Fowler
 Clark
 - Advanced Rails Recipes
 
+Burns, Copeland
+- Deploying Rails
+
 ######Frontend
 Chaffer, Swedberg
 - Learning jQuery -Third Edition
