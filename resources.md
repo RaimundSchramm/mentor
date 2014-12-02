@@ -23,6 +23,9 @@
 ######Corey Haines
 - [Fast Rails tests](http://youtu.be/bNn6M2vqxHE)
 
+######Kate Haddleston
+- [Technical Onboarding, Training and Mentoring](http://confreaks.com/videos/4164-gogaruco2014-technical-onboarding-training-and-mentoring)
+
 =
 #####Blogs
 =
