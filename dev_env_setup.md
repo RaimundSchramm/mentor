@@ -32,7 +32,7 @@ or
 
 ### 1.2 VirtualBox
 #### 1.2.1 Install or Update
-download, install, start, create vm
+[download](https://www.virtualbox.org/wiki/Downloads), install, start, create vm
 
 #### 1.2.2 Configure
 install Guest User Additions in started VM via TopLevelMenue
