@@ -113,57 +113,40 @@ development:
 
 #### 3.1 Install Ruby
 
-> rvm install 1.9.3
+Install the desired version with RVM. Open a terminal and run `rvm install 2.1.5`.
 
 There are [performance patches](https://github.com/skaes/rvm-patchsets) for the work with Ruby on Rails.
 
-#### 3.2 Create rvm gemset
+To install a performance patch run for example `rvm install 2.1.5 --patch railsexpress -n railsexpress`.
 
-switch to correct ruby in rvm session in terminal
+#### 3.2 Create RVM gemset
 
-> rvm use ruby-1.9.3-p194-perf@global
+a) If it is a new project or there are no rvm-config-files (.ruby-version, .ruby-gemset) available
 
-TODO: clearify why default gemset does not work
+Switch to correct ruby in rvm session in terminal `rvm use ruby-2.1.5-railsexpress`.
+Optional: Make sure correct ruby is loaded in rvm session in terminal `ruby -v`.
 
-make sure correct ruby is loaded in rvm session in terminal
+Create gemset `rvm gemset create name-of-gemset`
+Optional: Make sure correct gemset is loaded in rvm session in terminal `rvm gemset name`.
 
-> ruby -v
-> ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-linux]
+Optional: Check for recent needed gems for development with rails. `gem li`.
 
-create gemset
+Bundler seems to be removed as global gem (WHY?). It now seems that it has to be added to each gemset (-.-) with `gem install bundler`.
 
-> rvm gemset create app_name
+For development with rails install rails now `gem install rails`.
 
-make sure correct gemset is loaded in rvm session in terminal
+b) If it is an existing project and there are rvm-config-files (.ruby-version, .ruby-gemset) available
 
-> rvm gemset name
+CD into the project directory - correct Ruby should be loaded by RVM and gemset should be created.
 
- check for recent needed gems for development with rails
-
-> gem li
-> *** LOCAL GEMS ***
-
-add if needed (usually installed by default) TODO: clearify why not with perf-patch
-
-> gem install bundler
-> gem install rake
-> gem install rubygems-bundler
-> gem install rvm
-
-for development with rails install rails now
-
-for latest version
-
-> gem install rails
-
-### 3.3 Create project
+#### 3.3 Create project
 
 cd into your workspace
 create your rails app
 
 > rails new app_name
 
-### 3.4 Create .rvmrc
+#### 3.4 Create .rvmrc
 
 cd into your app diretory
 create .rvmrc for your project
