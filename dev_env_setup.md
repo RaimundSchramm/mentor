@@ -11,13 +11,20 @@ Contents:
 - 1.1.2 Update
 - 1.1.3 Install packed software and libraries
 - 1.1.4 Install version control
+- 
 ### 1. Set up OS (Operating System)
+In this first section everything you need on your OS is explained.
+
 #### 1.1 Ubuntu
+
 The instructions below are related to Ubuntu 12.04.
+
 ##### 1.1.1 Installation
+
 Get and install the desired target OS as you wish. Using VirtualBox you can [download an iso-file](http://www.ubuntu.com/download) for example.
 
 #### 1.1.2 Update
+
 If there are any system updates available, for example after a fresh installation, first synchronize the package index file with its sources. Open a terminal and run `sudo apt-get update`.
 
 Second, install the most recent version of each installed package. In your terminal run now `sudo apt-get upgrade`.
@@ -25,6 +32,7 @@ Second, install the most recent version of each installed package. In your termi
 Third, you can uninstall obsolete dependencies of packages that were installed automatically. Run `sudo apt-get autoremove` inside the terminal if you wish.
 
 #### 1.1.3 Install packed software and libraries
+
 As I use RVM for Management of rubies and gems and it now takes care of initial requirements no additional libraries are required at this point.
 
 Outdated:
@@ -33,24 +41,36 @@ libsqlite3-0 libsqlite3-dev libssl-dev libtool libxml2-dev libxslt-dev libxslt1-
 openssl sqlite3 zlib1g zlib1g-dev pkg-config
 
 #### 1.1.4 Install version control
+
 The choice is to use git as distributed version control system.
 To install it run `sudo apt-get install git` or `sudo apt-get install git-core` in your terminal.
 
 ### 1.2 VirtualBox
+
 #### 1.2.1 Install or Update
+
 [download](https://www.virtualbox.org/wiki/Downloads), install, start, create vm
+
 #### 1.2.2 Configure
+
 Install Guest User Additions in started VM via TopLevelMenue.
 Set up RAM, CPUs, Graphic Memory, HD before install of OS or after.
 Restart virtual machine if necessary.
+
 ### 2. Setup RVM (Ruby Version Manager)
+
 All Ruby-versions will be managed with RVM.
 
 Note: To avoid any conflict it is better that no additional Ruby is installed outside RVM. If RVM is set up and used correctly than that should be no problem.
+
 #### 2.2 Installation
+
 Install RVM like explained on the [official page](https://rvm.io/rvm/install). In this guide installation as single user is chosen.
+
 #### 2.2 Configure
+
 Set terminal to run command as a login shell. Terminal Menue Bar -> Edit -> Profile Preferences -> Title and Command -> Run as Login Shell.
+
 #### 2.2 Update
 
 ## 3. Setup Database
