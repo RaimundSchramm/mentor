@@ -1,10 +1,19 @@
-# Setup of development environment
+## Setup of development environment
 
-## 1. Setup OS (Operating System)
+This guide helps you setting up an environment for development.
 
-### 1.1 Ubuntu
-#### 1.1.1 Install
-get target os from anywhere, for VirtualBox download iso-file for example
+It covers everything important concerning the goal to develop with Ruby- or Rails-Projects on Ubuntu either inside Virtualbox or normal installation.
+
+Contents:
+###   1. Set up OS (Operating System)
+####  1.1 Ubuntu
+##### 1.1.1 Installation
+
+### 1. Set up OS (Operating System)
+#### 1.1 Ubuntu
+The instructions below are related to Ubuntu 12.04.
+##### 1.1.1 Installation
+Get and install the desired target OS as you wish. Using VirtualBox you can [download an iso-file](http://www.ubuntu.com/download) for example.
 
 #### 1.1.2 Update
 First, use `update` to synchronize the package index file with its sources.
