@@ -8,22 +8,19 @@ Contents:
 ###   1. Set up OS (Operating System)
 ####  1.1 Ubuntu
 ##### 1.1.1 Installation
+##### 1.1.2 Update
 
 ### 1. Set up OS (Operating System)
 #### 1.1 Ubuntu
 The instructions below are related to Ubuntu 12.04.
 ##### 1.1.1 Installation
 Get and install the desired target OS as you wish. Using VirtualBox you can [download an iso-file](http://www.ubuntu.com/download) for example.
-
 #### 1.1.2 Update
-First, use `update` to synchronize the package index file with its sources.
-> sudo apt-get update
+If there are any system updates available, for example after a fresh installation, first synchronize the package index file with its sources. Open a terminal and run `sudo apt-get update`.
 
-Second, use `upgrade` to install the most recent version of each installed package.
-> sudo apt-get upgrade
+Second, install the most recent version of each installed package. In your terminal run now `sudo apt-get upgrade`.
 
-Third, use `autoremove` to uninstall obsolete dependencies of packages that were installed automatically.
-> sudo apt-get autoremove
+Third, you can uninstall obsolete dependencies of packages that were installed automatically. Run `sudo apt-get autoremove` inside the terminal if you wish.
 
 #### 1.1.3 Install packed software and libraries
 
