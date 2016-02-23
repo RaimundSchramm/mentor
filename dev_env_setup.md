@@ -9,12 +9,14 @@ Contents:
 - 1.1 Ubuntu
 - 1.1.1 Installation
 - 1.1.2 Update
-
+- 1.1.3 Install packed software and libraries
+- 1.1.4 Install version control
 ### 1. Set up OS (Operating System)
 #### 1.1 Ubuntu
 The instructions below are related to Ubuntu 12.04.
 ##### 1.1.1 Installation
 Get and install the desired target OS as you wish. Using VirtualBox you can [download an iso-file](http://www.ubuntu.com/download) for example.
+
 #### 1.1.2 Update
 If there are any system updates available, for example after a fresh installation, first synchronize the package index file with its sources. Open a terminal and run `sudo apt-get update`.
 
@@ -23,18 +25,16 @@ Second, install the most recent version of each installed package. In your termi
 Third, you can uninstall obsolete dependencies of packages that were installed automatically. Run `sudo apt-get autoremove` inside the terminal if you wish.
 
 #### 1.1.3 Install packed software and libraries
+As I use RVM for Management of rubies and gems and it now takes care of initial requirements no additional libraries are required at this point.
 
+Outdated:
 > sudo apt-get install autoconf automake bison build-essential curl libc6-dev libreadline6 libreadline6-dev
 libsqlite3-0 libsqlite3-dev libssl-dev libtool libxml2-dev libxslt-dev libxslt1-dev libyaml-dev ncurses-dev 
 openssl sqlite3 zlib1g zlib1g-dev pkg-config
 
-#### 1.1.4 Install git
-
-> sudo apt-get install git
-
-or
-
-> sudo apt-get install git-core
+#### 1.1.4 Install version control
+The choice is to use git as distributed version control system.
+To install it run `sudo apt-get install git` or `sudo apt-get install git-core` in your terminal.
 
 ### 1.2 VirtualBox
 #### 1.2.1 Install or Update
