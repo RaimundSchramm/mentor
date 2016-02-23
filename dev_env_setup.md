@@ -11,7 +11,7 @@ Contents:
 - 1.1.2 Update
 - 1.1.3 Install packed software and libraries
 - 1.1.4 Install version control
-- 
+
 ### 1. Set up OS (Operating System)
 In this first section everything you need on your OS is explained.
 
