@@ -5,10 +5,10 @@ This guide helps you setting up an environment for development.
 It covers everything important concerning the goal to develop with Ruby- or Rails-Projects on Ubuntu either inside Virtualbox or normal installation.
 
 Contents:
-###   1. Set up OS (Operating System)
-####  1.1 Ubuntu
-##### 1.1.1 Installation
-##### 1.1.2 Update
+- 1. Set up OS (Operating System)
+- 1.1 Ubuntu
+- 1.1.1 Installation
+- 1.1.2 Update
 
 ### 1. Set up OS (Operating System)
 #### 1.1 Ubuntu
@@ -39,25 +39,19 @@ or
 ### 1.2 VirtualBox
 #### 1.2.1 Install or Update
 [download](https://www.virtualbox.org/wiki/Downloads), install, start, create vm
-
 #### 1.2.2 Configure
-install Guest User Additions in started VM via TopLevelMenue
+Install Guest User Additions in started VM via TopLevelMenue.
+Set up RAM, CPUs, Graphic Memory, HD before install of OS or after.
+Restart virtual machine if necessary.
+### 2. Setup RVM (Ruby Version Manager)
+All Ruby-versions will be managed with RVM.
 
-setup RAM, CPUs, Graphic Memory, HD before install of OS
-
-restart if necessary
-
-## 2. Setup RVM (Ruby Version Manager)
-
-### 2.2 Install as single user
-
-> curl -L get.rvm.io | bash -s stable
-
-### 2.2 Configure
-
-set terminal to run command as a login shell
-
-### 2.2 Update
+Note: To avoid any conflict it is better that no additional Ruby is installed outside RVM. If RVM is set up and used correctly than that should be no problem.
+#### 2.2 Installation
+Install RVM like explained on the [official page](https://rvm.io/rvm/install). In this guide installation as single user is chosen.
+#### 2.2 Configure
+Set terminal to run command as a login shell. Terminal Menue Bar -> Edit -> Profile Preferences -> Title and Command -> Run as Login Shell.
+#### 2.2 Update
 
 ## 3. Setup Database
 ### 3.1 Postgresql
