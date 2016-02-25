@@ -11,6 +11,11 @@ Contents:
 - 1.1.2 Update
 - 1.1.3 Install packed software and libraries
 - 1.1.4 Install version control
+- 2. Setup RVM (Ruby Version Manager)
+- 2.2 Installation
+- 2.3 Configure
+- 2.4 Configure Rubygems
+- 2.5 Update
 
 ### 1. Set up OS (Operating System)
 In this first section everything you need on your OS is explained.
@@ -67,11 +72,22 @@ Note: To avoid any conflict it is better that no additional Ruby is installed ou
 
 Install RVM like explained on the [official page](https://rvm.io/rvm/install). In this guide installation as single user is chosen.
 
-#### 2.2 Configure
+#### 2.3 Configure
 
 Set terminal to run command as a login shell. Terminal Menue Bar -> Edit -> Profile Preferences -> Title and Command -> Run as Login Shell.
 
-#### 2.2 Update
+#### 2.4 Configure Rubygems
+
+Create a .gemrc file inside your home directory and fill it with the desired [options](http://guides.rubygems.org/command-reference/), for example:
+```
+gem: --no-document
+:backtrace: true
+:sources:
+- https://rubygems.org
+```
+For further .rc files see [this blogpost](http://www.justinweiss.com/articles/fast-consistent-setup-for-your-ruby-and-rails-projects/)
+
+#### 2.5 Update
 
 ## 3. Setup Database
 ### 3.1 Postgresql
