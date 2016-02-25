@@ -6,8 +6,8 @@ It covers everything important concerning the goal to develop with Ruby- or Rail
 
 Contents:
 
-1. [Set up OS (Operating System)](#1-set-up-os-operating-system)
-1.1 [Ubuntu](#11-ubuntu)
+*1. [Set up OS (Operating System)](#1-set-up-os-operating-system)
+*1.1 [Ubuntu](#11-ubuntu)
 
 - 1.1.1 Installation
 - 1.1.2 Update
