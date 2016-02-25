@@ -5,7 +5,9 @@ This guide helps you setting up an environment for development.
 It covers everything important concerning the goal to develop with Ruby- or Rails-Projects on Ubuntu either inside Virtualbox or normal installation.
 
 Contents:
-1. [Set up OS (Operating System)](#1. Set up OS (Operating System))
+
+1. [Set up OS (Operating System)](### 1. Set up OS (Operating System))
+
 - 1.1 Ubuntu
 - 1.1.1 Installation
 - 1.1.2 Update
