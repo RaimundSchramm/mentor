@@ -11,6 +11,7 @@ Contents:
 - 1.1.2 Update
 - 1.1.3 Install packed software and libraries
 - 1.1.4 Install version control
+- 1.1.5 Install a Javascript Runtime Environment
 - 2. Setup RVM (Ruby Version Manager)
 - 2.2 Installation
 - 2.3 Configure
@@ -49,6 +50,10 @@ openssl sqlite3 zlib1g zlib1g-dev pkg-config
 
 The choice is to use git as distributed version control system.
 To install it run `sudo apt-get install git` or `sudo apt-get install git-core` in your terminal.
+
+##### 1.1.5 Install a Javascrip Runtime Environment
+
+The choice is to use node.js. Open your terminal and run `sudo apt-get install nodejs`.
 
 #### 1.2 VirtualBox
 
