@@ -1,6 +1,10 @@
 ###Git Style Guide
 
-####Fork and Pull
+#### Contents
+##### [Fork and Pull](#fork-and-pull)
+##### [Useful History](#useful-history)
+
+#### Fork and Pull
 
 assuming
 - github account is set up (Contributor)
@@ -73,3 +77,19 @@ git branch -d branch-to-solve-issue
 ```
 As maintainer:
 - delete obsolete branch locally, see above.
+
+#### Useful History
+With Git lots of information can reside inside its history. If you take a careful and disciplined approach maintaining your commits and their messages you can use them to get any information.
+
+The idea is to get a complete and nicely formatted overview of important information used in day-to-day work. This could be for example to see a complete list of maintaining a certain gem.
+
+Therefore you need a best practice approach paired with a certain style guide.
+
+Try something like using certain keywords and a strict order to combine a commit message with lookup information.
+
+The desired output could be something like:
+
+```
+* db05189 2016-02-28 | updates version: 4.2.5.2 of gem: Rails for purpose: security fix
+* 59eff40 2016-02-28 | uses version: 4.2.5.1 of gem: Rails for purpose: desired target version ~> 4.2 [Raimund Schramm]
+```
