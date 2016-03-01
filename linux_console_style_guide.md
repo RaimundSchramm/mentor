@@ -3,7 +3,7 @@
 ####Contents
 * [Open files in a web browser](#Open files in a web browser)
 * [Copy files via SSH in command line](#Copy files via SSH in command line)
-* [Copy command output into a file](#Copy command output into a file)
+* [Copy command output into a file](#copy-command-output-into-a-file)
 
 ####Open files in a web browser
 
