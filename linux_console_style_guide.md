@@ -3,6 +3,7 @@
 ####Contents
 * [Open files in a web browser](#Open files in a web browser)
 * [Copy files via SSH in command line](#Copy files via SSH in command line)
+* [Copy command output into a file](#Copy command output into a file)
 
 ####Open files in a web browser
 
@@ -27,3 +28,11 @@ scp user@from-host:path-to-source-file path-to-destination-file
 see for example
 (http://www.garron.me/en/linux/scp-linux-mac-command-windows-copy-files-over-ssh.html)
 
+####Copy command output into a file
+
+I want to see and work with the output of any terminal command inside my favourite text editor.
+
+```
+git show huge-commit &> path-to-your-output-file
+```
+[see example here](http://stackoverflow.com/questions/2840187/how-to-pipe-the-output-of-a-command-to-file-on-linux)
