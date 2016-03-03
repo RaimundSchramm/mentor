@@ -8,10 +8,11 @@
 - [Ruby](#ruby)
 - [Rails](#rails)
 - [Frontend](#frontend)
-
+#
 2. [Casts and Talks](#casts-and-talks)
 
 - [Robert C. Martin](#robert-c.-martin)
+#
 3. [Blogs](#Blogs)
 
 =
