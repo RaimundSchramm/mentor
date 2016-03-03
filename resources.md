@@ -8,8 +8,8 @@
   * [Rails](#rails)
   * [Frontend](#frontend)
 * [Casts and Talks](#casts-and-talks)
-  * [Robert C. Martin](#robert-c.-martin)
-* [Blogs](#Blogs)
+  * [Robert C. Martin](#robert-c-martin)
+* [Blogs](#blogs)
 
 =
 
