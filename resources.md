@@ -1,14 +1,27 @@
-####Resources
--
+###Resources
+
+#####Contents
+
+1. Books
+1.1 General Software Development Advice
+1.2 Ruby
+1.3 Rails
+1.4 Frontend
+2. Casts and Talks
+2.1 Robert C. Martin
+3. Blogs
+
+=
+
 #####Books
-######General Software Development Advice
+#######General Software Development Advice
 Dave Thomas, Andrew Hunt
 - The Pragmatic Programmer
 
 Eric Evans
 - Domain-Driven Design
 
-######Ruby
+#######Ruby
 Sandi Metz
 - Practical Object-Oriented Design in Ruby
 
@@ -27,7 +40,7 @@ Chelimsky
 Dix
 - Service-Oriented Design With Ruby and Rails
 
-######Rails
+#######Rails
 Athayde, Williams
 - The Rails View
 
@@ -43,7 +56,7 @@ Clark
 Burns, Copeland
 - Deploying Rails
 
-######Frontend
+#######Frontend
 Chaffer, Swedberg
 - Learning jQuery -Third Edition
 
