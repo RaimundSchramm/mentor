@@ -15,56 +15,28 @@
 
 #####Books
 #######General Software Development Advice
-Dave Thomas, Andrew Hunt
-- The Pragmatic Programmer
-
-Eric Evans
-- Domain-Driven Design
+- The Pragmatic Programmer - Dave Thomas, Andrew Hunt
+- Domain-Driven Design - Eric Evans
 
 #######Ruby
-Sandi Metz
-- Practical Object-Oriented Design in Ruby
-
-Black
-- The Well-Grounded Rubyist
-
-Olsen
-- Eloquent Ruby
-
-Fields, Harvie, Fowler
-- Refactoring - Ruby Edition
-
-Chelimsky
-- The RSpec Book
-
-Dix
-- Service-Oriented Design With Ruby and Rails
+- Practical Object-Oriented Design in Ruby - Sandi Metz
+- The Well-Grounded Rubyist -Black
+- Eloquent Ruby - Olsen
+- Refactoring - Ruby Edition - Fields, Harvie, Fowler
+- The RSpec Book - Chelimsky
+- Service-Oriented Design With Ruby and Rails - Dix
 
 #######Rails
-Athayde, Williams
-- The Rails View
-
-Rappin
-- Rails Test Prescriptions
-
-Chad Fowler
-- Rails Recipes
-
-Clark
-- Advanced Rails Recipes
-
-Burns, Copeland
-- Deploying Rails
+- The Rails View - Athayde, Williams
+- Rails Test Prescriptions - Rappin
+- Rails Recipes - Chad Fowler
+- Advanced Rails Recipes - Clark
+- Deploying Rails - Burns, Copeland
 
 #######Frontend
-Chaffer, Swedberg
-- Learning jQuery -Third Edition
-
-Catlin
-- Pragmatic Guide to Sass
-
-Hogan
-- HTML5 & CSS
+- Learning jQuery -Third Edition - Chaffer, Swedberg
+- Pragmatic Guide to Sass - Catlin
+- HTML5 & CSS - Hogan
 
 =
 #####Casts and Talks
