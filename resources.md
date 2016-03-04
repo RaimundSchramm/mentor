@@ -20,10 +20,14 @@
 
 #######Ruby
 - Practical Object-Oriented Design in Ruby - Sandi Metz
-- The Well-Grounded Rubyist -Black
-- Eloquent Ruby - Olsen
-- Refactoring - Ruby Edition - Fields, Harvie, Fowler
-- The RSpec Book - Chelimsky
+- Ruby For Rails - David A. Black
+- The Well-Grounded Rubyist - David A. Black
+- Eloquent Ruby - Russ Olsen
+- Design Patterns in Ruby - Russ Olsen
+- Refactoring - Ruby Edition - Jay Fields, Shane Harvie, Martin Fowler
+- Ruby best Practices - Gregory T. Brown
+- Ruby in Practice - Jeremy McAnally, Assaf Arkin
+- The RSpec Book - David Chelimsky
 - Service-Oriented Design With Ruby and Rails - Dix
 
 #######Rails
