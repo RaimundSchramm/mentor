@@ -97,13 +97,13 @@ Make up good names for key concepts and items:
 
 concept|keyword
 ---|---
-a single test for a model|*Model Test*
-a single test for a controller|*Controller Test*
-a single test for a route|*Routing Test*
-a single test for a Feature|*Integration Test*
-a single test for a helper|*Helper Test*
-a single test for a mailer|*Mailer Test*
-a single test for a view|*View Test*
+a single test for a model|**Model Test**
+a single test for a controller|**Controller Test**
+a single test for a route|**Routing Test**
+a single test for a Feature|**Integration Test**
+a single test for a helper|**Helper Test**
+a single test for a mailer|**Mailer Test**
+a single test for a view|**View Test**
 
 The keyword for contributing something new is `adds`.
 
@@ -112,7 +112,8 @@ An elemental item which is contributed and follows the `adds` keyword could be a
 Examples for commit message:
 
 ```
-adds Model Test for User
-adds Model Spec for User
+**adds Model Test for User model**
+*adds Model Test for User
 adds Model Test for User model
+adds Model Spec for User
 ```
