@@ -101,6 +101,8 @@ An elemental item which is contributed and follows the `adds` keyword could be a
 
 Examples for commit message:
 
+```
 adds Model Test for User
 adds Model Spec for User
 adds Model Test for User model
+```
