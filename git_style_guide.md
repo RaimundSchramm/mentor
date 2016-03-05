@@ -1,8 +1,8 @@
 ###Git Style Guide
 
 #### Contents
-##### [Fork and Pull](#fork-and-pull)
-##### [Useful History](#useful-history)
+1. [Fork and Pull](#fork-and-pull)
+2. [Useful History](#useful-history)
 
 #### Fork and Pull
 
@@ -93,3 +93,8 @@ The desired output could be something like:
 * db05189 2016-02-28 | updates version: 4.2.5.2 of gem: Rails for purpose: security fix
 * 59eff40 2016-02-28 | uses version: 4.2.5.1 of gem: Rails for purpose: desired target version ~> 4.2 [Raimund Schramm]
 ```
+Make up good names for key concepts and items:
+
+| keyword for contributing something - `adds`
+| elemental item which is contributed and follows `adds` - `Model Test`
+|
