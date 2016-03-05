@@ -113,7 +113,7 @@ Examples for commit message:
 
 ```
 **adds Model Test for User model**
-*adds Model Test for User
+adds Model Test for User
 adds Model Test for User model
 adds Model Spec for User
 ```
