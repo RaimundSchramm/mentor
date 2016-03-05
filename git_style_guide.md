@@ -95,6 +95,13 @@ The desired output could be something like:
 ```
 Make up good names for key concepts and items:
 
-| keyword for contributing something - `adds`
-| elemental item which is contributed and follows `adds` - `Model Test`
-|
+The keyword for contributing something new is `adds`.
+
+An elemental item which is contributed and follows the `adds` keyword could be a `Model Test`.
+
+Examples for commit message:
+`adds Model Test for User`
+
+`adds Model Spec for User`
+
+`adds Model Test for User model`
