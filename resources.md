@@ -28,7 +28,6 @@
 - Ruby best Practices - Gregory T. Brown
 - Ruby in Practice - Jeremy McAnally, Assaf Arkin
 - The RSpec Book - David Chelimsky
-- Service-Oriented Design With Ruby and Rails - Dix
 
 #######Rails
 - The Rails View - Athayde, Williams
@@ -36,6 +35,13 @@
 - Rails Recipes - Chad Fowler
 - Advanced Rails Recipes - Clark
 - Deploying Rails - Burns, Copeland
+- Deploying Rails Applications - Ezra Zygmuntowicz, Bruce Tate, Clinton Begin
+- Rails Antipatterns - Chad Pytel, Tammer Saleh
+- Service-Oriented Design with Ruby on Rails - Paul Dix
+- Ajax on Rails - Scott Raymond
+- The Rails 3 Way - Obie Fernandez
+- Rails 3 in Action - Ryan Bigg, Yehuda Katz
+- Agile Web Development with Rails 1-4 - Sam Ruby, Dave Thomas, David Heinemeier Hansson
 
 #######Frontend
 - Learning jQuery -Third Edition - Chaffer, Swedberg
