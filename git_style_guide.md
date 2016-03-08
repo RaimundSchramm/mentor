@@ -132,6 +132,7 @@ adds Model Spec for User - RSpec-related
 ##### Typical Workflow
 
 In BDD a typical Workflow could look like this (Rails-Full-Stack-Example):
+
 1. Write a failing Integration Test - Some new feature is available in the View => Element Error
   1.1. implement Element, for example a link to an Action => Routing Error
 2. Write a failing Routing Test - Something new is in routes.rb => Controller Error
@@ -147,4 +148,5 @@ In BDD a typical Workflow could look like this (Rails-Full-Stack-Example):
 7. Write a failing Controller Test using Model => Controller Error
   7.1. implement Model inside Controller Action => View Error
   7.2. implement Model inside View
+
 => Integration Test should be green
