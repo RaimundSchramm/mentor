@@ -79,7 +79,10 @@ As maintainer:
 - delete obsolete branch locally, see above.
 
 #### Useful History
-With Git lots of information can reside inside its history. If you take a careful and disciplined approach maintaining your commits and their messages you can use them to get any information.
+
+With Git lots of information can reside inside a repository's history. If you take a careful and disciplined approach maintaining your commits and their messages you can use them to get any information.
+
+##### General approach
 
 The idea is to get a complete and nicely formatted overview of important information used in day-to-day work. This could be for example to see a complete list of maintaining a certain gem.
 
@@ -93,7 +96,18 @@ The desired output could be something like:
 * db05189 2016-02-28 | updates version: 4.2.5.2 of gem: Rails for purpose: security fix
 * 59eff40 2016-02-28 | uses version: 4.2.5.1 of gem: Rails for purpose: desired target version ~> 4.2 [Raimund Schramm]
 ```
-Make up good names for key concepts and items:
+The first task is to think of git log scenarios and make up good names for key concepts and items.
+
+##### Contributing something
+
+A contribution can either be something that enters the repository for the first time in history or changes something that already existed. Maybe we should distinguish on a per-file-base at first.
+
+concept|keyword
+---|---
+a new file is added to the repository|**adds**
+an existing file is modified|**updates**
+
+The keyword for contributing something new is `adds`.
 
 concept|keyword
 ---|---
@@ -104,8 +118,6 @@ a single test for a Feature|**Integration Test**
 a single test for a helper|**Helper Test**
 a single test for a mailer|**Mailer Test**
 a single test for a view|**View Test**
-
-The keyword for contributing something new is `adds`.
 
 An elemental item which is contributed and follows the `adds` keyword could be a `Model Test`.
 
