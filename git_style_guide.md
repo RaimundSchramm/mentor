@@ -134,7 +134,7 @@ adds Model Spec for User - RSpec-related
 In BDD a typical Workflow could look like this (Rails-Full-Stack-Example):
 
 1. Write a failing Integration Test - Some new feature is available in the View => Element Error
-  - 1.1 implement Element, for example a link to an Action => Routing Error
+  - 1.1 implement Element, for example a link to an Action => Routing Error (ActionController::RoutingError: No route matches ...)
 2. Write a failing Routing Test - Something new is in routes.rb => Controller Error
   - 2.1 implement Route => Controller Error
 3. Write a failing Controller Test - a new route is handled by a controller => Controller Error
