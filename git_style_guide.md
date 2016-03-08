@@ -135,18 +135,19 @@ In BDD a typical Workflow could look like this (Rails-Full-Stack-Example):
 
 1. Write a failing Integration Test - Some new feature is available in the View
   - Integration Test fails => Element Error
-  - implement Element, for example a link => Integration Test passes
-  - enhance Test, link requests an Action
+  -1.1 implement Element, for example a link => Integration Test passes
+  -1.2 enhance Test, link requests an Action
   - Integration Test fails => Routing Error (ActionController::RoutingError: No route matches ...)
 2. Write a failing Routing Test - Something new is in routes.rb
   - Routing Test fails => No route matches
-  - implement Route => Routing Test fails => LoadError: Unable to autoload constant
+  -2.1 implement Route => Routing Test fails => LoadError: Unable to autoload constant
 3. Write a failing Controller Test - a new route is handled by a controller
   - Controller Test fails => Controller Error
   - 3.1 implement Controller => Action Error
-4. Write a failing Controller Test for the Action => Action Error
-  - 4.1 implement Action inside Controller => View Error
-  - 4.2 implement View
+4. Write a failing Controller Test for the Action
+  - Controller Test fails => Action Error (not for new, see comments below)
+  -4.1 implement Action inside Controller => View Error
+  -4.2 implement View
 5. Write a failing Integration Test for Data Model => Model Error
 6. Write a failing Model Test => Model Error
   - 6.1 implement Model
