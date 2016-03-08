@@ -155,3 +155,6 @@ In BDD a typical Workflow could look like this (Rails-Full-Stack-Example):
   - 7.2 implement Model inside View
 
 => Integration Test should be green
+
+Comments:
+- Controller Test for new action seems to not need implementation if route exists - why?
