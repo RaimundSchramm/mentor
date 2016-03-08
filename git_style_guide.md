@@ -133,12 +133,16 @@ adds Model Spec for User - RSpec-related
 
 In BDD a typical Workflow could look like this (Rails-Full-Stack-Example):
 
-1. Write a failing Integration Test - Some new feature is available in the View => Element Error
-  - implement Element, for example a link => Test passes
-  - enhance Test, link requests an Action => Routing Error (ActionController::RoutingError: No route matches ...)
-2. Write a failing Routing Test - Something new is in routes.rb => Controller Error
-  - 2.1 implement Route => Controller Error
-3. Write a failing Controller Test - a new route is handled by a controller => Controller Error
+1. Write a failing Integration Test - Some new feature is available in the View
+  - Integration Test fails => Element Error
+  - implement Element, for example a link => Integration Test passes
+  - enhance Test, link requests an Action
+  - Integration Test fails => Routing Error (ActionController::RoutingError: No route matches ...)
+2. Write a failing Routing Test - Something new is in routes.rb
+  - Routing Test fails => No route matches
+  - implement Route => Routing Test fails => LoadError: Unable to autoload constant
+3. Write a failing Controller Test - a new route is handled by a controller
+  - Controller Test fails => Controller Error
   - 3.1 implement Controller => Action Error
 4. Write a failing Controller Test for the Action => Action Error
   - 4.1 implement Action inside Controller => View Error
