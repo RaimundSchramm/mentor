@@ -3,6 +3,10 @@
 #### Contents
 1. [Fork and Pull](#fork-and-pull)
 2. [Useful History](#useful-history)
+  - 2.1 Approach
+  - 2.2 Contributing Something
+  - 2.3[Typical Workflow](#typical-workflow)
+  - 2.4[Alternative Workflow with implicit Testing](#alternative-workflow-with-implicit-testing)
 
 #### Fork and Pull
 
@@ -159,3 +163,18 @@ In BDD a typical Workflow could look like this (Rails-Full-Stack-Example):
 
 Comments:
 - Controller Test for new action seems to not need implementation if route exists - why?
+- add example
+
+##### Alternative Workflow with implicit Testing
+
+Implement a Feature like:
+
+1. Integration Test
+  - implement View
+  - implicit Routing Test ---> implement Route
+  - implicit Controller Test ---> implement Controller and Actions
+2. Model Test
+  - implement Model and Methods
+
+Comments:
+- add example
