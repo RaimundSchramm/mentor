@@ -6,10 +6,12 @@ Basically nothing I know yet is better than [bozhidars style guide](https://gith
 
 Besides I here try to come up with an own style guide. It should lead to nearly the same result.
 
+##### Contents
+- [General](#general)
+
 ##### General
 
 - indent each subordinated line of code by exactly two spaces
-- 
 
 ```
 1  class MyClass
@@ -22,4 +24,10 @@ Besides I here try to come up with an own style guide. It should lead to nearly 
 2    'I am',
 2    'very long,
 3    'so split me up over several lines' ]
+```
+or
+```
+1  my_array = ['I am',
+2              'very long,
+3              'so split me up over several lines' ]
 ```
