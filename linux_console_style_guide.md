@@ -4,6 +4,7 @@
 * [Open files in a web browser](#open-files-in-a-web-browser)
 * [Copy files via SSH in command line](#copy-files-via-ssh-in-command-line)
 * [Copy command output into a file](#copy-command-output-into-a-file)
+* [Count lines](#count-lines)
 
 ####Open files in a web browser
 
@@ -36,3 +37,11 @@ I want to see and work with the output of any terminal command inside my favouri
 git show huge-commit &> path-to-your-output-file
 ```
 [see example here](http://stackoverflow.com/questions/2840187/how-to-pipe-the-output-of-a-command-to-file-on-linux)
+
+####Count lines
+
+I want to see how many commits I did since a certain date. So I can use `wc -l` (note: it is a small L and not a 1 :D ).
+
+```
+git log --oneline --since 2016-03-01 | wc -l
+```
