@@ -13,6 +13,11 @@ Contents:
     - 1.1.3 Install packed software and libraries
     - 1.1.4 Install version control
     - 1.1.5 Install a Javascript Runtime Environment
+  - 1.2 [Virtual Box](#virtual-box)
+    - 1.2.1 Installation
+    - 1.2.2 Configuration
+      - 1.2.2.2 [Network](#network)
+    - 1.2.3 Update
 - 2. Setup RVM (Ruby Version Manager)
   - 2.2 Installation
   - 2.3 Configure
@@ -58,15 +63,35 @@ The choice is to use node.js. Open your terminal and run `sudo apt-get install n
 
 #### 1.2 VirtualBox
 
-##### 1.2.1 Install or Update
+##### 1.2.1 Installation
 
 [download](https://www.virtualbox.org/wiki/Downloads), install, start, create vm
 
-##### 1.2.2 Configure
+##### 1.2.2 Configuration
+
+###### 1.2.2.1 Creating a new mashine
+Create new mashine.
+Set up RAM, CPUs, Graphic Memory, HD before install of OS or after.
 
 Install Guest User Additions in started VM via TopLevelMenue.
-Set up RAM, CPUs, Graphic Memory, HD before install of OS or after.
+
 Restart virtual machine if necessary.
+
+###### 1.2.2.2 Network
+- select mashine
+- edit
+- select network
+- select adapter
+- choose NAT
+- select Port Forwarding
+- enter complete line, e.g.
+Name|Protocoll|Host-IP|Host-Port|Guest-IP|Guest-Port
+---|---|---|---|---|---
+MyApp|TCP|127.0.0.1|1234|netstat|4321
+
+##### 1.2.3 Update
+
+...fill me with how to handle update + existing mashines...
 
 ### 2. Setup RVM (Ruby Version Manager)
 
