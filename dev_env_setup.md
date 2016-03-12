@@ -7,17 +7,17 @@ It covers everything important concerning the goal to develop with Ruby- or Rail
 Contents:
 
 - 1. [Set up OS (Operating System)](#1-set-up-os-operating-system)
-- 1.1 [Ubuntu](#11-ubuntu)
-- 1.1.1 Installation
-- 1.1.2 Update
-- 1.1.3 Install packed software and libraries
-- 1.1.4 Install version control
-- 1.1.5 Install a Javascript Runtime Environment
+  - 1.1 [Ubuntu](#11-ubuntu)
+    - 1.1.1 Installation
+    - 1.1.2 Update
+    - 1.1.3 Install packed software and libraries
+    - 1.1.4 Install version control
+    - 1.1.5 Install a Javascript Runtime Environment
 - 2. Setup RVM (Ruby Version Manager)
-- 2.2 Installation
-- 2.3 Configure
-- 2.4 Configure Rubygems
-- 2.5 Update
+  - 2.2 Installation
+  - 2.3 Configure
+  - 2.4 Configure Rubygems
+  - 2.5 Update
 
 ### 1. Set up OS (Operating System)
 In this first section everything you need on your OS is explained.
