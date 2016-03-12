@@ -16,7 +16,7 @@ Contents:
   - 1.2 [Virtual Box](#virtual-box)
     - 1.2.1 Installation
     - 1.2.2 Configuration
-      - 1.2.2.2 [Network](#network)
+      - 1.2.2.2 [Network](#1222-network)
     - 1.2.3 Update
 - 2. Setup RVM (Ruby Version Manager)
   - 2.2 Installation
@@ -85,6 +85,7 @@ Restart virtual machine if necessary.
 - choose NAT
 - select Port Forwarding
 - enter complete line, e.g.
+
 Name|Protocoll|Host-IP|Host-Port|Guest-IP|Guest-Port
 ---|---|---|---|---|---
 MyApp|TCP|127.0.0.1|1234|netstat|4321
