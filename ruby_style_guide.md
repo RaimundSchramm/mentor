@@ -9,26 +9,47 @@ Besides I here try to come up with an own style guide. It should lead to nearly 
 
 ##### Contents
 - [1. General](#1-general)
+  - [1.1 Indentation(#11-indentation)]
 
-##### 1. General
+#### 1. General
+##### 1.1 Indentation
+Indent each subordinated line of code by exactly two spaces. Also do not use tabs for this.
 
-- indent each subordinated line of code by exactly two spaces
-
-```
+```ruby
 1  class MyClass
 2    attr_reader :my_attribute
 3  end
 ```
 
-```
+```ruby
 1  my_array = [
 2    'I am',
-2    'very long,
-3    'so split me up over several lines' ]
+3    'very long,
+4    'so split me up over several lines' ]
 ```
-or
-```
+Exception:
+
+For readability I sometimes prefer a little difference in the following example.
+```ruby
 1  my_array = ['I am',
 2              'very long,
 3              'so split me up over several lines' ]
 ```
+This can be ugly to handle if you try to vetically align this with different sizes or multiple parameters per line.
+```ruby
+1  my_array = ['I am',
+2              'very long,
+3              'so split me up over several lines' ]
+
+1  my_array_with_a_longer_name = ['I am',
+2                                 'very long,
+3                                 'so split me up over several lines' ]
+
+```
+or
+```ruby
+1# Gemfile
+2gem 'some gem', 'version'
+3gem 'some gem with a very long name', 'version'
+```
+
