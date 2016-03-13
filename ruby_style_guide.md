@@ -1,6 +1,7 @@
 ####Ruby Style Guide
 
-...please fill me with guidance and best practices...
+In the words of Russ Olsen *Eloquent Ruby*:
+> ... good code tells the reader exactly what it is trying to do. Great code shouts its intent.
 
 Basically nothing I know yet is better than [bozhidars style guide](https://github.com/bbatsov/ruby-style-guide) which I use in general and adjust if necessary to my preferred style.
 
