@@ -2,11 +2,12 @@
 
 #### Contents
 1. [Fork and Pull](#fork-and-pull)
-2. [Useful History](#useful-history)
+2. [Useful History](#2-useful-history)
   - 2.1 Approach
   - 2.2 Contributing Something
-  - 2.3[Typical Workflow](#typical-workflow)
-  - 2.4[Alternative Workflow with implicit Testing](#alternative-workflow-with-implicit-testing)
+  - 2.3[Typical Workflow](#23-typical-workflow)
+  - 2.4[Alternative Workflow with implicit Testing](#24-alternative-workflow-with-implicit-testing)
+  - 2.5[Git Workflows](#25-git-workflows)
 
 #### Fork and Pull
 
@@ -178,3 +179,11 @@ Implement a Feature like:
 
 Comments:
 - add example
+
+##### 2.5 Git Workflows
+When I started learning and using git I commited everything in the Master Branch.
+Later I followed the recommendation to use Feature Branches for a better commit management. This is what I still do today.
+My goal is to someday apply an even better approach like these resources suggest:
+
+- [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
+- [Several Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows/)
