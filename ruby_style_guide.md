@@ -6,6 +6,7 @@ In the words of Russ Olsen *Eloquent Ruby*:
 Basically nothing I know yet is better than [bozhidars style guide](https://github.com/bbatsov/ruby-style-guide) which I use in general and adjust if necessary to my preferred style.
 
 Besides I here try to come up with an own style guide. It should lead to nearly the same result.
+
 ---
 
 ##### Contents
@@ -13,6 +14,7 @@ Besides I here try to come up with an own style guide. It should lead to nearly 
   - [1.1 Indentation](#11-indentation)
 
 ---
+
 #### 1. General
 ##### 1.1 Indentation
 Indent each subordinated line of code by exactly two spaces. Also do not use tabs for this.
