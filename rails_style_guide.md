@@ -7,3 +7,29 @@ please fill me with guidance and best practices
 - [more comprehensive blogpost](http://www.sitepoint.com/rubyists-love-logging/)
 - [another blogpost](http://rubyjunky.com/cleaning-up-rails-4-production-logging.html)
 - [maybe it's just ruby?!](http://ruby-doc.org/stdlib-2.1.0/libdoc/logger/rdoc/Logger.html)
+
+##### Testing
+###### Routes
+Basicially I write a Routing Test for every route my apps provide.
+
+When it comes to testing these routes I usually seperate the tests into sections of
+- RESTful
+- not RESTful
+- not used default REST routes
+
+[As mentioned here](http://stackoverflow.com/questions/4803469/how-can-i-assert-that-no-route-matches-in-a-rails-integration-test) a test for a not to be used route could be written like
+
+```ruby
+  describe 'not used default REST routes' do
+    it 'does not route to #new' do
+      assert_raises(ActionController::RoutingError) do
+        get '/lobby/new'
+      end
+    end
+  end
+```
+
+if I want to make explicitly sure, that I have a resource in my routes.rb which uses the default notation but only a subset of its routes.
+
+TODO:
+It is exactly the error I don't want to see as a User if I request a non-existent route. Add some info about standard error pages and -handling for failing requests.
