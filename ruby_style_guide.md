@@ -8,9 +8,9 @@ Basically nothing I know yet is better than [bozhidars style guide](https://gith
 Besides I here try to come up with an own style guide. It should lead to nearly the same result.
 
 ##### Contents
-- [General](#general)
+- [1. General](#1-general)
 
-##### General
+##### 1. General
 
 - indent each subordinated line of code by exactly two spaces
 
