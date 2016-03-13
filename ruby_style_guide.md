@@ -7,9 +7,11 @@ Basically nothing I know yet is better than [bozhidars style guide](https://gith
 
 Besides I here try to come up with an own style guide. It should lead to nearly the same result.
 ---
+
 ##### Contents
 - [1. General](#1-general)
   - [1.1 Indentation](#11-indentation)
+
 ---
 #### 1. General
 ##### 1.1 Indentation
