@@ -9,7 +9,7 @@ Besides I here try to come up with an own style guide. It should lead to nearly 
 
 ##### Contents
 - [1. General](#1-general)
-  - [1.1 Indentation(#11-indentation)]
+  - [1.1 Indentation](#11-indentation)
 
 #### 1. General
 ##### 1.1 Indentation
