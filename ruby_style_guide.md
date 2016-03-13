@@ -46,10 +46,18 @@ This can be ugly to handle if you try to vetically align this with different siz
 3                                 'so split me up over several lines' ]
 
 ```
-or
+or in Gemfile
 ```ruby
-1# Gemfile
-2gem 'some gem', 'version'
-3gem 'some gem with a very long name', 'version'
+gem 'some gem', 'version'
+gem 'some gem with a very long name', 'version'
+group :name do
+  gem 'some gem with an even longer name', 'version'
+end
 ```
-
+vs
+```ruby
+gem 'some gem',                            'version'
+gem 'some gem with a very long name',      'version'
+group :name do
+  gem 'some gem with an even longer name', 'version'
+end
