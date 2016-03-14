@@ -13,6 +13,7 @@ Besides I here try to come up with an own style guide. It should lead to nearly 
 - [1. General](#1-general)
   - [1.1 Indentation](#11-indentation)
   - [1.2 Spacing](#12-spacing)
+  - [1.3 Comments](#13-comments)
 
 ---
 
@@ -84,3 +85,16 @@ group :gems_for_this_specific_environment do
   gem 'some gem with an even longer name', 'version'
 end
 ```
+
+***
+
+##### 1.3 Comments
+
+In a perfect world the code is completely easy to read and understand. Therefore no comments would be needed.
+From my experience unless you are very familiar with Ruby (or any other language) you will have difficulties understanding
+good written code. And if you understand even badly written code than you still have to understand its semantically meaning
+inside the domain it is written for.
+
+So judge what is not human readable and clear for a domain newby and put an explaining comment there.
+
+###
