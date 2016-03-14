@@ -12,6 +12,7 @@ Besides I here try to come up with an own style guide. It should lead to nearly 
 ##### Contents
 - [1. General](#1-general)
   - [1.1 Indentation](#11-indentation)
+  - [1.2 Spacing](#12-spacing)
 
 ---
 
@@ -65,3 +66,19 @@ gem 'some gem with a very long name',      'version'
 group :name do
   gem 'some gem with an even longer name', 'version'
 end
+```
+
+---
+
+##### 1.2 Spacing
+
+Put a new line between semantically different statement
+
+```ruby
+gem 'gem for each environment',            'version'
+gem 'another for each environment',        'version'
+
+group :gems_for_this_specific_environment do
+  gem 'some gem with an even longer name', 'version'
+end
+```
