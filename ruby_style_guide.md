@@ -18,7 +18,9 @@ Besides I here try to come up with an own style guide. It should lead to nearly 
 
 #### 1. General
 ##### 1.1 Indentation
-Indent each subordinated line of code by exactly two spaces. Also do not use tabs for this.
+
+a) Indent everything according to its scope and relatively to each other.
+b) Indent each subordinated line of code by exactly two spaces. Also do not use tabs for this.
 
 ```ruby
 1  class MyClass
