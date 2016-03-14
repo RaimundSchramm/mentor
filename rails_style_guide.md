@@ -62,10 +62,12 @@ To make this available inside any test I update my test/test_helper.rb as follow
 
 test/test_helper.rb
 ```ruby
-Dir[Rails.root.join('test/support/**/*.rb')].each {|f| require f}
+# looks up every file inside the support directory
+Dir[Rails.root.join('test/support/**/*.rb')].each {|f| require f} <---
 
 class ActiveSupport::TestCase
   # Add more helper methods to be used by all tests here...
+  # looks up exactly the desired Module hierarchy
   include Utilities::Features  <---
 end
 ```
