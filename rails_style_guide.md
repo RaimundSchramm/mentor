@@ -72,4 +72,4 @@ class ActiveSupport::TestCase
 end
 ```
 
-[Thanks to this resource for help :D](#http://schock.net/articles/2015/01/21/modules-with-rails-tests-share-behavior-minitest/)
+[Thanks for help](#http://schock.net/articles/2015/01/21/modules-with-rails-tests-share-behavior-minitest/)
