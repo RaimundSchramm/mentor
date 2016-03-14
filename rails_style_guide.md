@@ -1,6 +1,11 @@
 #### Rails Style Guide
 
-please fill me with guidance and best practices
+##### Contents
+
+- Testing
+  - [Shared Behaviour](#shared-behaviour)
+
+---
 
 ##### Logging
 - [offical doc](http://guides.rubyonrails.org/debugging_rails_applications.html#log-levels)
@@ -33,3 +38,36 @@ if I want to make explicitly sure, that I have a resource in my routes.rb which 
 
 TODO:
 It is exactly the error I don't want to see as a User if I request a non-existent route. Add some info about standard error pages and -handling for failing requests.
+
+##### Shared Behaviour
+
+Convenience methods that are usable in tests can be placed into a `test/support` directory.
+
+For example I use logging in a User multiple times in my Integration Tests. So I have this in place:
+
+test/support/features.rb
+```ruby
+module Utilities
+  module Features
+    def login(user)
+      get '/'
+      get '/log_in'
+      post '/log_in', session: { name: user.name, password: user.password }
+    end
+  end
+end
+```
+
+To make this available inside any test I update my test/test_helper.rb as follows:
+
+test/test_helper.rb
+```ruby
+Dir[Rails.root.join('test/support/**/*.rb')].each {|f| require f}
+
+class ActiveSupport::TestCase
+  # Add more helper methods to be used by all tests here...
+  include Utilities::Features  <---
+end
+```
+
+[Thanks to this resource for help :D](#http://schock.net/articles/2015/01/21/modules-with-rails-tests-share-behavior-minitest/)
