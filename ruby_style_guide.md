@@ -97,4 +97,15 @@ inside the domain it is written for.
 
 So judge what is not human readable and clear for a domain newby and put an explaining comment there.
 
+```ruby
+class MyClass
+
+  # calculates the price of items under that condition
+  def my_elegant_method
+    ...here is the best code you have ever seen
+  end
+
+end
+```
+
 ###
