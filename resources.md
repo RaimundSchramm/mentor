@@ -44,9 +44,29 @@
 - Agile Web Development with Rails 1-4 - Sam Ruby, Dave Thomas, David Heinemeier Hansson
 
 #######Frontend
+_Javascript_
+- Simply Javascript - Kevin Yank, Cameron Adams
+- Javascript - Stefan Koch
+- Javascript: The Good Parts - Douglas Crockford
+
+_jQuery_
 - Learning jQuery -Third Edition - Chaffer, Swedberg
+- jQuery - Das Praxisbuch - Maximillian Vollendorf, Frank Bongers
+- jQuery in Action - Bear Bibeault, Yehuda Katz
+
+_Coffeescript_
+- CoffeeScript - Accelerated JavaScript Development - Trevor Burnham
+
+_HTML&CSS_
+- HTML5 & CSS - Brian P. Hogan
 - Pragmatic Guide to Sass - Catlin
-- HTML5 & CSS - Hogan
+
+_Webdesign_
+- Modernes Webdesign mit CSS - Heiko Stiegert
+- Webdesign for Developers - Brian P. Hogan
+- Webdesign mit Webstandards - Jeffrey Zeldman
+- Web Development Recipes - Brian P. Hogan, Warren, Weber, Johnson, Godin
+- The Principles of Beautiful Web Design - Jason Beaird
 
 =
 #####Casts and Talks
