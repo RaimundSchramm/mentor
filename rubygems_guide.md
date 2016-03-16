@@ -3,7 +3,16 @@
 Besides having great tools like Bundler and RVM and a great supportive community the topic of managing gems in general
 and dependencies in particular can be quite frustrating.
 
-This here shall help with the process. At first come the resources I found and use.
+This here shall help with the process.
+
+-
+
+#### Contents
+- 1. [Online Resources](#1-online-resources)
+
+-
+
+#### 1. Online Resources
 
 official documentation:
 - [rubygems](http://guides.rubygems.org/)
