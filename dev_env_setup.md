@@ -28,11 +28,13 @@ Contents:
   - 3.2 Configure app
   - 3.3 Configure database
   - 3.4 Update
-- 4. Set project
+- 4. Set up project
   - 4.1 [Install Ruby](#41-install-ruby)
   - 4.2 Configure
   - 4.3 Bundler
   - 4.4 Update
+  - 4.5 ...
+  - 4.6 [Set up gems](#46-set-up-gems)
 
 
 ### 1. Set up OS (Operating System)
@@ -236,7 +238,26 @@ if local repo was set up first
 TODO: clearify why git pull is necessary
 
 ### 4.6 Set up gems
+Ruby 1.9 and later comes with rubygems.
 
+The default gemset global contains every gem you want to use in every project, for example my default now looks like:
+
+```
+bigdecimal (1.2.4)
+bundler (1.7.6)
+bundler-unload (1.0.2)
+executable-hooks (1.3.2)
+gem-wrappers (1.2.7)
+io-console (0.4.2)
+json (1.8.1)
+minitest (4.7.5)
+psych (2.0.5)
+rake (10.1.0)
+rdoc (4.1.0)
+rubygems-bundler (1.4.4)
+rvm (1.11.3.9)
+test-unit (2.1.5.0)`
+```
 
 ## 4. Setup IDE/Editor
 ### 4.1 Aptana Studio
