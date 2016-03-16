@@ -9,6 +9,7 @@ This here shall help with the process.
 
 #### Contents
 - 1. [Online Resources](#1-online-resources)
+- 2. [Example - Upgrading Rails App](#2-upgrading-rails-app)
 
 -
 
@@ -28,3 +29,34 @@ blogs with tips and workflows:
 Rails-specific:
 - [list of all Rails versions](https://rubygems.org/gems/rails/versions)
 - [tool for Rails differences](http://railsdiff.org/)
+
+-
+
+#### 2. Upgrading Rails App
+As a matter of fact I need to upgrade my app gemoria/scrunch right now. Although it is a huge construction site with lots of work to do it seems to run locally just fine. Anyway, putting it under continuous integration with Travis CI still does not work. Besides it is time to upgrade.
+
+So where do I start.
+
+With my current RVM-setup I have a global gemset containing these gems.
+
+```
+bigdecimal (1.2.4)
+bundler (1.7.6)
+bundler-unload (1.0.2)
+executable-hooks (1.3.2)
+gem-wrappers (1.2.7)
+io-console (0.4.2)
+json (1.8.1)
+minitest (4.7.5)
+psych (2.0.5)
+rake (10.1.0)
+rdoc (4.1.0)
+rubygems-bundler (1.4.4)
+rvm (1.11.3.9)
+test-unit (2.1.5.0)
+```
+
+- As a user of RVM at first I set up a new gemset and switch to it.
+- I create backup-files of my Gemfile and my Gemfile.lock.
+- I comment out ever gem in my Gemfile.
+
