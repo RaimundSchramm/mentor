@@ -23,6 +23,17 @@ Contents:
   - 2.3 Configure
   - 2.4 Configure Rubygems
   - 2.5 Update
+- 3. Setup database
+  - 3.1 Installation
+  - 3.2 Configure app
+  - 3.3 Configure database
+  - 3.4 Update
+- 4. Set project
+  - 4.1 [Install Ruby](#41-install-ruby)
+  - 4.2 Configure
+  - 4.3 Bundler
+  - 4.4 Update
+
 
 ### 1. Set up OS (Operating System)
 In this first section everything you need on your OS is explained.
@@ -157,9 +168,9 @@ development:
   pool: 5
 ```
 
-### 3. Setup project
+### 4. Setup project
 
-#### 3.1 Install Ruby
+#### 4.1 Install Ruby
 
 Install the desired version with RVM. Open a terminal and run `rvm install 2.1.5`.
 
@@ -167,7 +178,7 @@ There are [performance patches](https://github.com/skaes/rvm-patchsets) for the 
 
 To install a performance patch run for example `rvm install 2.1.5 --patch railsexpress -n railsexpress`.
 
-#### 3.2 Create RVM gemset
+#### 4.2 Create RVM gemset
 
 a) If it is a new project or there are no rvm-config-files (.ruby-version, .ruby-gemset) available
 
@@ -187,21 +198,21 @@ b) If it is an existing project and there are rvm-config-files (.ruby-version, .
 
 CD into the project directory - correct Ruby should be loaded by RVM and gemset should be created.
 
-#### 3.3 Create project
+#### 4.3 Create project
 
 cd into your workspace
 create your rails app
 
 > rails new app_name
 
-#### 3.4 Create .rvmrc
+#### 4.4 Create .rvmrc
 
 cd into your app diretory
 create .rvmrc for your project
 
 > echo 'rvm use ruby-1.9.3-p194-perf@gemset_name' > .rvmrc
 
-### 3.5 Setup git repository
+### 4.5 Setup git repository
 
 cd into app directory
 
@@ -223,7 +234,9 @@ if local repo was set up first
 > git push origin master
 
 TODO: clearify why git pull is necessary
-### 3.6 Setup gems
+
+### 4.6 Set up gems
+
 
 ## 4. Setup IDE/Editor
 ### 4.1 Aptana Studio
