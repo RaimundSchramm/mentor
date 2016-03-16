@@ -35,7 +35,19 @@ Rails-specific:
 #### 2. Upgrading Rails App
 As a matter of fact I need to upgrade my app gemoria/scrunch right now. Although it is a huge construction site with lots of work to do it seems to run locally just fine. Anyway, putting it under continuous integration with Travis CI still does not work. Besides it is time to upgrade.
 
-So where do I start.
+So, my app runs locally on Rails 4.1.8. My goal is to upgrade it to use the latest version of Rails 4.2
+and the latest version of each other gem.
+
+So where do I start. I will use the approach to start with an empty gemset, add upgrade Rails at first
+and follow up with each gem separately. My app will be working if
+- bundler does not complain and can install everything
+- the app is starting without errors using `rails s`
+- there are no errors running `rake`
+- the tests are running green
+- the app seems to work as usual using it in the browser
+
+So I procede one step at a time, check each item of the list above afterwards and
+let me guide by the errors I get.
 
 With my current RVM-setup I have a global gemset containing these gems.
 
