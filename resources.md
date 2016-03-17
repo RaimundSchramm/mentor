@@ -15,8 +15,43 @@
 
 #####Books
 #######General Software Development Advice
+_Advice for Beginners_
+- New Programmer's Survival Manual - Josh Carter
+- Apprenticeship Patterns - Dave H. Hoover, Adewale Oshineye
+- Learn to Program - Chris Pine
+
+_Software Development_
 - The Pragmatic Programmer - Dave Thomas, Andrew Hunt
+- The Passionate Programmer - Chad Fowler
+- The Developer's Code - Ka Wai Cheung
+- Clean Code - Robert C. Martin
+- The Clean Coder - Robert C. Martin
+- The Healthy Programmer - Joe Kutner
+
+_Domain Modelling / Object Orientation_
 - Domain-Driven Design - Eric Evans
+- Growing Object-Oriented Software, guided by tests - Steve Freeman, Nat Pryce
+
+_Agile_
+- The Agile Sumurai - Jonathan Rasmusson
+- Practices of an Agile Developer - Venkat Subramaniam, Andy Hunt
+- Extreme Programming - Kent Beck
+- Planning Extreme Programming - Kent Beck, Martin Fowler
+- Scrum mit User Stories - Ralf Wirdemann
+- Rework - Jason Fried, David Heinemeier Hansson
+- The Lean Startup - Eric Ries
+
+_Web Services_
+- RESTful Web Services - Leonard Richardson, Sam Ruby
+
+_Refactoring_
+- Working effectively with Legacy Code - Micheal C. Feathers
+
+_Continous Integration_
+- Continous Testing with Ruby, Rails and Javascript - Ben Rady, ROd Coffin
+
+_Version Control_
+- Pragmatic Version Control using Git - Travis Swicegood
 
 #######Ruby
 - Practical Object-Oriented Design in Ruby - Sandi Metz
