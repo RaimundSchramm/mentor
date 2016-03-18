@@ -21,3 +21,19 @@ Solution
 - There was an update in Rails to this setting.
 - It has to be 0.0.0.0 to work.
 - Starting the Rails-App for example `rails server --binding 0.0.0.0` solves the problem.
+
+#### Obscure Bundler/Rubygems/Path-Error
+
+Use Case
+- open Terminal
+- cd to app (rvm is set up, so loading correct ruby and gemset off .ruby-versin and .ruby-gemset)
+- everything works
+- open another Terminal tab
+- RVM-Path issue is still to fix, so cd .
+
+Problem
+
+- starting app for example results in error certain gem is missing (which it isn't)
+
+Solution
+- currently assuming gemset is not loaded this way, so explicitly loading it rvm gemset use name_of_gemset seems to work
