@@ -1,3 +1,16 @@
+#### Contents
+- [Adding Remote Branches](#adding-remote-branches)
+
+--
+
+#### Adding Remote Branches
+
+`git push name_of_repository name_of_branch`
+
+TODO: setup for creator of remote branch
+
+--
+
 ####Deleting Remote Branches
 
 ```
