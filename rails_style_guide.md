@@ -85,4 +85,8 @@ There is a certain redundancy with other tests because these Integration Tests a
 
 Currently I try several stacks...to be continued
 
-[Capybara's method for dealing with alert-boxes](http://www.rubydoc.info/github/jnicklas/capybara/Capybara/Session:accept_alert)
+Additional Resources:
+
+- [Main tool for testing with a real browser](https://github.com/jnicklas/capybara)
+- [Capybara's method for dealing with alert-boxes](http://www.rubydoc.info/github/jnicklas/capybara/Capybara/Session:accept_alert)
+- [helpful blog](http://stefan.magnuson.co/articles/rails/robust-integration-testing-in-rails-4-with-rspec-capybara-and-selenium/)
