@@ -3,8 +3,8 @@
 ##### Contents
 
 - Testing
+  - [Acceptance Testing](#acceptance-testing)
   - [Shared Behaviour](#shared-behaviour)
-
 ---
 
 ##### Logging
@@ -73,3 +73,15 @@ end
 ```
 
 [Thanks for help](http://schock.net/articles/2015/01/21/modules-with-rails-tests-share-behavior-minitest/)
+
+--
+
+##### Acceptance Testing
+
+This section provides info about High-Level-Testing. As a Product Owner you want to make sure that an app is providing some functionality/feature. So basically what this means is that a User clicks on links or fills out and submits forms in some bigger app-specific/domain-specific context. So the High-Level means a certain Use Case / Scenario in which the User interacts with the app to reach a certain goal. Under the hood of the Web Stack the tests touch everything from the View- to the Database-Layer. And this is what I want to test by Acceptance Testing/Integration Testing.
+
+There is a certain redundancy with other tests because these Integration Tests assert things that will be tested somewhere else, too. But the important benefit is, that only on this level everything needed for a Use Case is tested. So the sum is bigger than its parts.
+
+Currently I try several stacks...to be continued
+
+[Capybara's method for dealing with alert-boxes](http://www.rubydoc.info/github/jnicklas/capybara/Capybara/Session:accept_alert)
