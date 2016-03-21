@@ -8,7 +8,7 @@
   - 2.3 [Typical Workflow](#23-typical-workflow)
   - 2.4 [Alternative Workflow with implicit Testing](#24-alternative-workflow-with-implicit-testing)
   - 2.5 [Git Workflows](#25-git-workflows)
-  - 2.6 [Release Management](#release-management)
+  - 2.6 [Release Management](#26-release-management)
 
 #### Fork and Pull
 
