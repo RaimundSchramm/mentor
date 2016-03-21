@@ -5,9 +5,10 @@
 2. [Useful History](#2-useful-history)
   - 2.1 Approach
   - 2.2 Contributing Something
-  - 2.3[Typical Workflow](#23-typical-workflow)
-  - 2.4[Alternative Workflow with implicit Testing](#24-alternative-workflow-with-implicit-testing)
-  - 2.5[Git Workflows](#25-git-workflows)
+  - 2.3 [Typical Workflow](#23-typical-workflow)
+  - 2.4 [Alternative Workflow with implicit Testing](#24-alternative-workflow-with-implicit-testing)
+  - 2.5 [Git Workflows](#25-git-workflows)
+  - 2.6 [Release Management](#release-management)
 
 #### Fork and Pull
 
@@ -187,3 +188,11 @@ My goal is to someday apply an even better approach like these resources suggest
 
 - [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
 - [Several Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows/)
+
+--
+
+##### 2.6 Release Management
+
+use semantic versioning
+
+- https://help.github.com/articles/closing-issues-via-commit-messages/
