@@ -31,7 +31,7 @@ Solution
 
 ---
 
-###### RVM Path Error
+###### 2. RVM Path Error
 
 Use Case
 - open Terminal
