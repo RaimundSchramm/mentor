@@ -4,8 +4,15 @@ Please fill me with all errors you encounter including their solution.
 
 This is to help you quickly if you make the same error again.
 
+---
 
-###### Rails-App not reachable
+##### Contents
+- 1. [Rails-App not reachable](#1-rails-app-not-reachable)
+- 2. [Obscure Bundler/Rubygems/Path-Error](#2-)
+
+---
+
+###### 1. Rails-App not reachable
 
 Use Case:
 - I want to set up my Rails-App on Ubuntu inside Virtual Box inside Windows 7 host.
@@ -22,7 +29,9 @@ Solution
 - It has to be 0.0.0.0 to work.
 - Starting the Rails-App for example `rails server --binding 0.0.0.0` solves the problem.
 
-#### Obscure Bundler/Rubygems/Path-Error
+---
+
+###### Obscure Bundler/Rubygems/Path-Error
 
 Use Case
 - open Terminal
@@ -37,3 +46,12 @@ Problem
 
 Solution
 - currently assuming gemset is not loaded this way, so explicitly loading it rvm gemset use name_of_gemset seems to work
+
+HINTS:
+
+recent rvm message , maybe related
+
+Warning! PATH is not properly set up, '/home/mund/.rvm/gems/ruby-2.1.5/bin' is not at first place,
+         usually this is caused by shell initialization files - check them for 'PATH=...' entries,
+         it might also help to re-add RVM to your dotfiles: 'rvm get stable --auto-dotfiles',
+         to fix temporarily in this shell session run: 'rvm use ruby-2.1.5'.
