@@ -8,7 +8,7 @@ This is to help you quickly if you make the same error again.
 
 ##### Contents
 - 1. [Rails-App not reachable](#1-rails-app-not-reachable)
-- 2. [Obscure Bundler/Rubygems/Path-Error](#2-)
+- 2. [RVM Path Error](#2-rvm-path-error)
 
 ---
 
@@ -31,7 +31,7 @@ Solution
 
 ---
 
-###### Obscure Bundler/Rubygems/Path-Error
+###### RVM Path Error
 
 Use Case
 - open Terminal
