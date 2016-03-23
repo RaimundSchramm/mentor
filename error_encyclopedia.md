@@ -46,6 +46,7 @@ Problem
 
 Solution
 - currently assuming gemset is not loaded this way, so explicitly loading it rvm gemset use name_of_gemset seems to work
+- afaik it is works as intended because opening the dir in new tab just loads the default gemset while entering somehow loads from .ruby-gemset
 
 HINTS:
 
@@ -55,3 +56,7 @@ Warning! PATH is not properly set up, '/home/mund/.rvm/gems/ruby-2.1.5/bin' is n
          usually this is caused by shell initialization files - check them for 'PATH=...' entries,
          it might also help to re-add RVM to your dotfiles: 'rvm get stable --auto-dotfiles',
          to fix temporarily in this shell session run: 'rvm use ruby-2.1.5'.
+
+This above is something different. Make sure rvm is always the first entry in PATH variable. I accidentally had exercism in front of it.
+
+[helpful comments](http://stackoverflow.com/questions/18276701/getting-warning-path-is-not-properly-set-up-when-doing-rvm-)use-2-0-0-defaul
