@@ -5,6 +5,9 @@
 * [Copy files via SSH in command line](#copy-files-via-ssh-in-command-line)
 * [Copy command output into a file](#copy-command-output-into-a-file)
 * [Count lines](#count-lines)
+* [Add name of current Git branch to prompt](#add-name-of-current-git-branch-to-prompt)
+* [Add current gemset to prompt](#add-current-gemset-to-prompt)
+* [Add multiline output for prompt](#add-multiline-output-for-prompt)
 
 -
 
@@ -67,3 +70,9 @@ git log --oneline --since 2016-03-01 | wc -l
 [for example](http://stackoverflow.com/questions/3294072/bash-get-last-dirname-filename-in-a-file-path-argument)
 
 -
+
+#### Add multiline output for prompt
+
+[for example](http://askubuntu.com/questions/251154/long-lines-overlap-in-bash-ps1-customized-prompt)
+[and more](https://www.maketecheasier.com/8-useful-and-interesting-bash-prompts/)
+[something about environment variables](https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps)
