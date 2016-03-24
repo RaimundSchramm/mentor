@@ -62,3 +62,8 @@ git log --oneline --since 2016-03-01 | wc -l
 
 -
 
+#### Add current gemset to prompt
+
+[for example](http://stackoverflow.com/questions/3294072/bash-get-last-dirname-filename-in-a-file-path-argument)
+
+-
