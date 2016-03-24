@@ -12,7 +12,7 @@
 
 TODO: setup for creator of remote branch
 
---
+-
 
 #### Deleting Remote Branches
 
@@ -21,7 +21,7 @@ git push remote-name-of-destination-repo :remote-branch-you-want-to-delete
 ```
 The local version of this branch still exists in your local repository until deletion.
 
----
+-
 
 #### Creating a Patch
 
@@ -48,7 +48,7 @@ see for example
 * (http://ariejan.net/2009/10/26/how-to-create-and-apply-a-patch-with-git/)
 * (http://www.ralfebert.de/git/patches/)
 
------
+-
 
 #### Creating a Tag
 
@@ -72,4 +72,4 @@ git push origin --tags
 useful resources:
 - [Pro Git](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 
-------
+-
