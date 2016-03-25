@@ -9,7 +9,7 @@ This is to help you quickly if you make the same error again.
 ##### Contents
 - 1. [Rails-App not reachable](#1-rails-app-not-reachable)
 - 2. [RVM Path Error](#2-rvm-path-error)
-- 3. [Firefox-Error while running tests](#3firefox-error-while-running-tests)
+- 3. [Firefox-Error while running tests](#3-firefox-error-while-running-tests)
 
 ---
 
