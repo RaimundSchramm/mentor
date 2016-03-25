@@ -9,6 +9,7 @@ This is to help you quickly if you make the same error again.
 ##### Contents
 - 1. [Rails-App not reachable](#1-rails-app-not-reachable)
 - 2. [RVM Path Error](#2-rvm-path-error)
+- 3. [Firefox-Error while running tests](#3firefox-error-while-running-tests)
 
 ---
 
@@ -60,3 +61,11 @@ Warning! PATH is not properly set up, '/home/mund/.rvm/gems/ruby-2.1.5/bin' is n
 This above is something different. Make sure rvm is always the first entry in PATH variable. I accidentally had exercism in front of it.
 
 [helpful comments](http://stackoverflow.com/questions/18276701/getting-warning-path-is-not-properly-set-up-when-doing-rvm-)use-2-0-0-defaul
+
+-
+
+##### 3. Firefox-Error while running tests
+
+error was something like this: gnome.display --- Firefox-Profile not accessible or missing
+
+seems to be associated with call of save_and_open_page inside feature spec
