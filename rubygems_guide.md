@@ -81,6 +81,7 @@ test-unit (2.1.5.0)
 -
 
 - 1. preserve a gemset with a set of gems that are known to be working with my application; this will be the most recent one called ruby-2.1.5@gemoria; (If this was not the last step of an upgrade than now remove most recent gemoria-gemset and rename gemset of last upgrade to gemoria.)
-- 2. ...
+- 2. create a new gemset for the desired upgrade version (Make sure to switch to it with rvm and that it contains the correct global gems.)
+- 3. ...
 
 
