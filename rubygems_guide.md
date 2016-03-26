@@ -33,7 +33,11 @@ Rails-specific:
 -
 
 #### 2. Upgrading Rails App
-As a matter of fact I need to upgrade my app gemoria/scrunch right now. Although it is a huge construction site with lots of work to do it seems to run locally just fine. Anyway, putting it under continuous integration with Travis CI still does not work. Besides it is time to upgrade.
+As a matter of fact I need to upgrade my app gemoria/scrunch right now. Although it is a huge construction site with lots of work to do it seems to run locally just fine.
+
+Anyway, putting it under continuous integration with Travis CI still does not work. (Basically this was an issue with Jasminerice no longer maintained - the correct gem version was 0.1.0, but from rubygems I only got 0.0.10 which conflicted with Bundler and so with Travis -). I removed Jasminerice as it seems not necessary in current testing stack.
+
+Besides it is time to upgrade.
 
 So, my app runs locally on Rails 4.1.8. My goal is to upgrade it to use the latest version of Rails 4.2
 and the latest version of each other gem.
