@@ -80,8 +80,10 @@ test-unit (2.1.5.0)
 
 -
 
-- 1. preserve a gemset with a set of gems that are known to be working with my application; this will be the most recent one called ruby-2.1.5@gemoria; (If this was not the last step of an upgrade than now remove most recent gemoria-gemset and rename gemset of last upgrade to gemoria.)
-- 2. create a new gemset for the desired upgrade version (Make sure to switch to it with rvm and that it contains the correct global gems.)
-- 3. ...
+- 1. Preserve a gemset with a set of gems that are known to be working with my application; this will be the most recent one called ruby-2.1.5@gemoria; (If this was not the last step of an upgrade than now remove most recent gemoria-gemset and rename gemset of last upgrade to gemoria.)
+- 2. Create a new gemset for the desired upgrade version (Make sure to switch to it with rvm and that it contains the correct global gems.)
+- 3. If you work with more than master branch, make sure you switch to your upgrade branch.
+- 4. Now change the Rails version in your Gemfile to the desired target version. After that run `bundle update`.
+- 5.
 
 
