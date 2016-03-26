@@ -89,3 +89,15 @@ test-unit (2.1.5.0)
 - 7. Test your app. In my case this is  `bin/rake`, `bin/rspec spec`, `bin/guard`, starting in development and production and do some manual checking.
 - 8. Fix everything you want to upgrade: Deprecations, gem updates (usually to latest working version which means downgrading sometimes) and any bugs. Commit the changes and finalize in desired branch for example master.
 - 9. If you use tags you can add one with a version name and info. Push everything to your remote. Delete the upgrade branch or leave it be for next time (Don't forget to merge everything new into this branch before next upgrade).
+
+resources:
+
+- [railsapps](http://railsapps.github.io/updating-rails.html)
+- [official guides](http://guides.rubyonrails.org/upgrading_ruby_on_rails.html)
+- [official guides concerning configuration](http://guides.rubyonrails.org/configuring.html#configuring-assets)
+- [rails releases](http://weblog.rubyonrails.org/releases/)
+- [railsdiff](http://railsdiff.org/)
+- [rails versions](https://rubygems.org/gems/rails/versions)
+- [useful blog](http://www.justinweiss.com/articles/how-to-upgrade-to-rails-4-dot-2/)
+- [useful blog](http://ryanbigg.com/2011/01/why-you-should-run-bundle-update/)
+- [useful blog](http://makandracards.com/makandra/13885-how-to-update-a-single-gem-conservatively)
