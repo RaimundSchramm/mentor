@@ -39,6 +39,8 @@ Anyway, putting it under continuous integration with Travis CI still does not wo
 
 Besides it is time to upgrade.
 
+-
+
 So, my app runs locally on Rails 4.1.8. My goal is to upgrade it to use the latest version of Rails 4.2
 and the latest version of each other gem.
 
@@ -75,4 +77,10 @@ test-unit (2.1.5.0)
 - As a user of RVM at first I set up a new gemset and switch to it.
 - I create backup-files of my Gemfile and my Gemfile.lock.
 - I comment out ever gem in my Gemfile.
+
+-
+
+- 1. preserve a gemset with a set of gems that are known to be working with my application; this will be the most recent one called ruby-2.1.5@gemoria; (If this was not the last step of an upgrade than now remove most recent gemoria-gemset and rename gemset of last upgrade to gemoria.)
+- 2. ...
+
 
