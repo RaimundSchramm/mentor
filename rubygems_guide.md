@@ -84,6 +84,8 @@ test-unit (2.1.5.0)
 - 2. Create a new gemset for the desired upgrade version (Make sure to switch to it with rvm and that it contains the correct global gems.)
 - 3. If you work with more than master branch, make sure you switch to your upgrade branch.
 - 4. Now change the Rails version in your Gemfile to the desired target version. After that run `bundle update`.
-- 5.
+- 5. Run `rake -vT` for first upgrade-test.
+- 6. Use `rake rails:update` or [railsdiff](http://railsdiff.org/) to upgrade Rails configuration files step by step. Be careful to not overwite your changes. For example make a commit `git commit -m 'saves state before running rake rails:update'`.
+- 7.
 
 
