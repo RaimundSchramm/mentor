@@ -10,7 +10,7 @@ This is to help you quickly if you make the same error again.
 - 1. [Rails-App not reachable](#1-rails-app-not-reachable)
 - 2. [RVM Path Error](#2-rvm-path-error)
 - 3. [Firefox-Error while running tests](#3-firefox-error-while-running-tests)
-- 4. [WAI-error Rails has_secure_password](#4-wai-error-rails-has-secure-password)
+- 4. [WAI-error Rails has_secure_password](#4-wai-error-rails-has_secure_password)
 
 ---
 
