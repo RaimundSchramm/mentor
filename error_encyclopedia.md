@@ -10,6 +10,7 @@ This is to help you quickly if you make the same error again.
 - 1. [Rails-App not reachable](#1-rails-app-not-reachable)
 - 2. [RVM Path Error](#2-rvm-path-error)
 - 3. [Firefox-Error while running tests](#3-firefox-error-while-running-tests)
+- 4. [WAI-error Rails has_secure_password](#4-wai-error-rails-has-secure-password)
 
 ---
 
@@ -69,3 +70,25 @@ This above is something different. Make sure rvm is always the first entry in PA
 error was something like this: gnome.display --- Firefox-Profile not accessible or missing
 
 seems to be associated with call of save_and_open_page inside feature spec
+
+-
+
+##### 4. WAI-error Rails has_secure_password
+
+...works as intended...
+Rails [has_secure_password](http://api.rubyonrails.org/) provides you with validation on password on creation of the including model.
+
+I encountered a confusing behaviour when after I added validations on password, for example for length, and suddenly my User was not valid anymore.
+
+Rails has_secure_password validation together with additional validations on password triggers on update. So for me the solution is to switch off the validation on update for every update which is not a necessary update_users-action.
+
+```ruby
+def logout!
+  self.logged_in = false
+  save! validate: false
+end
+```
+
+[explanation of has_secure_password](http://robert-reiz.com/2014/04/12/has_secure_password-with-rails-4-1/)
+
+-
