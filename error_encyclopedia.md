@@ -76,7 +76,7 @@ seems to be associated with call of save_and_open_page inside feature spec
 ##### 4. WAI-error Rails has_secure_password
 
 ...works as intended...
-Rails [has_secure_password](http://api.rubyonrails.org/) provides you with validation on password on creation of the including model.
+Rails [has_secure_password](http://apidock.com/rails/ActiveModel/SecurePassword/ClassMethods/has_secure_password) provides you with validation on password on creation of the including model.
 
 I encountered a confusing behaviour when after I added validations on password, for example for length, and suddenly my User was not valid anymore.
 
