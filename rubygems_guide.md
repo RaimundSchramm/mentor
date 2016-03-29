@@ -92,7 +92,7 @@ test-unit (2.1.5.0)
 - 6. Use `rake rails:update` or [railsdiff](http://railsdiff.org/) to upgrade Rails configuration files step by step. Be careful to not overwite your changes. For example make a commit `git commit -m 'saves state before running rake rails:update'`. I use the commit updating my Gemfile and Gemfile.lock after running bundle update for this.
 - 7. Test your app. In my case this is  `bin/rake`, `bin/rspec spec`, `bin/guard`, starting in development and production and do some manual checking.
 - 8. Fix everything you want to upgrade: Deprecations, gem updates (usually to latest working version which means downgrading sometimes) and any bugs. Commit the changes and finalize in desired branch for example master.
-- 9. If you use tags you can add one with a version name and info. Push everything to your remote. Delete the upgrade branch or leave it be for next time (Don't forget to merge everything new into this branch before next upgrade).
+- 9. If you use tags [you can add one](https://github.com/RaimundSchramm/mentor/blob/master/git_cheat_sheet.md#creating-a-tag) with a version name and info. Push everything to your remote. Delete the upgrade branch or leave it be for next time (Don't forget to merge everything new into this branch before next upgrade).
 
 resources:
 
