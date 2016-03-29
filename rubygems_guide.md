@@ -84,7 +84,9 @@ test-unit (2.1.5.0)
   - `rvm gemset delete gemoria`
   - `rvm gemset rename last_working_gemset gemoria`
 - 2. Create a new gemset for the desired upgrade version (Make sure to switch to it with rvm and that it contains the correct global gems.)
+  - `rvm gemset use gemoria_Rails_version --create`
 - 3. If you work with more than master branch, make sure you switch to your upgrade branch.
+  -  `rvm checkout your-upgrade-branch`
 - 4. Now change the Rails version in your Gemfile to the desired target version. After that run `bundle update`.
 - 5. Run `rake -vT` for first upgrade-test.
 - 6. Use `rake rails:update` or [railsdiff](http://railsdiff.org/) to upgrade Rails configuration files step by step. Be careful to not overwite your changes. For example make a commit `git commit -m 'saves state before running rake rails:update'`. I use the commit updating my Gemfile and Gemfile.lock after running bundle update for this.
