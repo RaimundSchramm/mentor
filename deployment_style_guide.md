@@ -22,3 +22,9 @@ Things to improve in my code / release management:
 - correct version number, e.g. for git tags
   - x.y.z-alpha (x-major, y-minor, z-patch)
   - z only for bugfixes
+
+further resources:
+
+- [discussion about pros and cons](https://gist.github.com/jashkenas/cbd2b088e20279ae2c8e)
+- [good example](http://blog.versioneye.com/2014/01/16/semantic-versioning/)
+- [interesting alternative for non-library-projects](https://davehall.com.au/blog/dave/2016/01/19/internal-applications-when-semantic-versioning-doesnt-make-sense)
