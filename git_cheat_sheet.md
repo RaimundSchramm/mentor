@@ -3,6 +3,7 @@
 - [Deleting Remote Branches](#deleting-remote-branches)
 - [Creating a Patch](#creating-a-patch)
 - [Creating a Tag](#creating-a-tag)
+- [Stash](#stash)
 
 -
 
@@ -71,5 +72,14 @@ git push origin --tags
 
 useful resources:
 - [Pro Git](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+
+-
+
+#### Stash
+
+- stashing working tree `git stash`
+- listing contents of stash `git stash list`
+- unstashing into working tree `git stash apply [stashname]`
+- deleting stash `git stash drop [stashname]`
 
 -
