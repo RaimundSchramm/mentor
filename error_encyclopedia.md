@@ -92,3 +92,20 @@ end
 [explanation of has_secure_password](http://robert-reiz.com/2014/04/12/has_secure_password-with-rails-4-1/)
 
 -
+
+##### quick, dirty and maybe works-as-intended
+
+I thought `assert_routing` did always work for me. Having resource-routes and additional named route for users#new-resource gives me the following error in Routing Test.
+
+```ruby
+  resources :users
+  get '/signup'  => 'users#new', as: :signup
+```
+
+The generated path </users/new> did not match </signup>.
+  Expected: "/signup"
+    Actual: "/users/new"
+
+The same behaviour results from using `assert_generates`.
+
+Only assert_recognizes works correctly.
