@@ -109,3 +109,10 @@ The generated path </users/new> did not match </signup>.
 The same behaviour results from using `assert_generates`.
 
 Only assert_recognizes works correctly.
+
+-
+
+Hm, I think this rights-issue is because of copying it (backup) from other user (different OS, different user).
+So setting rights with `chmod` for example [as explained here](http://stackoverflow.com/questions/23297832/weird-rails-error-permission-denied-bin-rails-for-old-rails-apps).
+
+-
