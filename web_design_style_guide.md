@@ -28,16 +28,47 @@ Have a template of each relevant element and class with sample text.
 ##### Typography
 ###### Typeface
 
-| Class        | Style           | Font |
-| ------------- |:-------------:| -----:|
-| Serif      | Egyptian | Arvo |
-|       |  | Bitter |
-|       |  | Coustard |
-|       |  | Patua One |
-|       |  | Rockwell |
-| Sans-Serif | Geometric | Century Gothic |
+| Class         | Style           | Font  |
+| ------------- |:-------------:  | -----:|
+| Serif         |                 ||
+|               | Egyptian        ||
+|               |                 | Arvo  |
+|               |                 | Bitter |
+|               |                 | Coustard |
+|               |                 | Patua One |
+|               |                 | Rockwell |
+|               | Humanist        ||
+|               |                 | Cardo |
+|               |                 | Crimson Text |
+|               |                 | Garamond |
+|               |                 | Palatino |
+|               | Modern          ||
+|               |                 | Bodoni |
+|               |                 | Didot |
+|               |                 | Old Standard TT |
+|               |                 | Oranienbaum |
+|               |                 | Playfair Display |
+|               | Transitional    ||
+|               |                 | Baskerville |
+|               |                 | Droid Serif |
+|               |                 | Lora |
+|               |                 | Poly |
+|               |                 | Times New Roman |
+| Sans-Serif |||
+|| Geometric | Century Gothic |
 |  | | Exo |
 |  | | Futura |
 |  | | Raleway |
 |  | | Roboto |
+|| Humanist ||
+|  | | Exo |
+|  | | Futura |
+|  | | Raleway |
+|  | | Roboto |
+|| Transitional ||
+|  | | Exo |
+|  | | Futura |
+|  | | Raleway |
+|  | | Roboto |
+
 -
