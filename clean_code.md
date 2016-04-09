@@ -1,0 +1,3 @@
+##### Clean Code
+
+...fill me with best practices from 'Clean Code' and 'Clean Coder'...
