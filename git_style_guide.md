@@ -1,14 +1,50 @@
 ###Git Style Guide
 
 #### Contents
-1. [Fork and Pull](#fork-and-pull)
-2. [Useful History](#2-useful-history)
-  - 2.1 Approach
-  - 2.2 Contributing Something
-  - 2.3 [Typical Workflow](#23-typical-workflow)
-  - 2.4 [Alternative Workflow with implicit Testing](#24-alternative-workflow-with-implicit-testing)
-  - 2.5 [Git Workflows](#25-git-workflows)
-  - 2.6 [Release Management](#26-release-management)
+1. [First Time Setup](#first-time-setup)
+2. [Fork and Pull](#fork-and-pull)
+3. [Useful History](#useful-history)
+  - 1 Approach
+  - 2 Contributing Something
+  - 3 [Typical Workflow](#3-typical-workflow)
+  - 4 [Alternative Workflow with implicit Testing](#4-alternative-workflow-with-implicit-testing)
+  - 5 [Git Workflows](#5-git-workflows)
+  - 6 [Release Management](#6-release-management)
+
+-
+
+#### First Time Setup
+
+Install git `sudo apt-get install git`
+
+Add your name and email to the global git configuration file
+
+```
+git config --global user.name 'Your Name'
+git config --global user.email 'your@email.com'
+```
+
+Initialize new repository locally:
+
+```
+mkdir target-directory && cd target-directory
+git init
+git add .
+git commit -m 'initializes repository'
+git remote add origin remote-url
+git push -u origin master
+```
+
+or create new repository for example on github and clone it:
+
+```
+git clone https://github.com/githubuser/repository.git [target-directory]
+cd repository / [targetdirectory]
+etc.
+```
+
+
+-
 
 #### Fork and Pull
 
@@ -84,11 +120,13 @@ git branch -d branch-to-solve-issue
 As maintainer:
 - delete obsolete branch locally, see above.
 
+-
+
 #### Useful History
 
 With Git lots of information can reside inside a repository's history. If you take a careful and disciplined approach maintaining your commits and their messages you can use them to get any information.
 
-##### General approach
+##### 1 General approach
 
 The idea is to get a complete and nicely formatted overview of important information used in day-to-day work. This could be for example to see a complete list of maintaining a certain gem.
 
@@ -104,7 +142,9 @@ The desired output could be something like:
 ```
 The first task is to think of git log scenarios and make up good names for key concepts and items.
 
-##### Contributing something
+-
+
+##### 2 Contributing something
 
 A contribution can either be something that enters the repository for the first time in history or changes something that already existed. Maybe we should distinguish on a per-file-base at first.
 
@@ -135,7 +175,10 @@ adds Model Test for User
 adds Model Test for User model
 adds Model Spec for User - RSpec-related
 ```
-##### Typical Workflow
+
+-
+
+##### 3 Typical Workflow
 
 In BDD a typical Workflow could look like this (Rails-Full-Stack-Example):
 
@@ -167,7 +210,9 @@ Comments:
 - Controller Test for new action seems to not need implementation if route exists - why?
 - add example
 
-##### Alternative Workflow with implicit Testing
+-
+
+##### 4 Alternative Workflow with implicit Testing
 
 Implement a Feature like:
 
@@ -181,7 +226,9 @@ Implement a Feature like:
 Comments:
 - add example
 
-##### 2.5 Git Workflows
+-
+
+##### 5 Git Workflows
 When I started learning and using git I commited everything in the Master Branch.
 Later I followed the recommendation to use Feature Branches for a better commit management. This is what I still do today.
 My goal is to someday apply an even better approach like these resources suggest:
@@ -189,10 +236,12 @@ My goal is to someday apply an even better approach like these resources suggest
 - [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
 - [Several Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows/)
 
---
+-
 
-##### 2.6 Release Management
+##### 6 Release Management
 
 use semantic versioning
 
 - https://help.github.com/articles/closing-issues-via-commit-messages/
+
+-
