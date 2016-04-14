@@ -70,7 +70,7 @@ openssl sqlite3 zlib1g zlib1g-dev pkg-config
 The choice is to use git as distributed version control system.
 To install it run `sudo apt-get install git` or `sudo apt-get install git-core` in your terminal.
 
-##### 1.1.5 Install Javascrip Runtime Environment
+##### 1.1.5 Install Javascript Runtime Environment
 
 The choice is to use node.js. Open your terminal and run `sudo apt-get install nodejs`.
 
