@@ -8,11 +8,11 @@ Contents:
 
 - 1. [Set up OS (Operating System)](#1-set-up-os-operating-system)
   - 1.1 [Ubuntu](#11-ubuntu)
-    - 1.1.1 Installation
-    - 1.1.2 Update
-    - 1.1.3 Install packed software and libraries
-    - 1.1.4 Install version control
-    - 1.1.5 Install a Javascript Runtime Environment
+    - 1.1.1 [Installation](#installation)
+    - 1.1.2 [Update](#update)
+    - 1.1.3 [Install packed software and libraries](#install-packed-software-and-libraries)
+    - 1.1.4 [Install version control](#install-version-control)
+    - 1.1.5 [Install Javascript Runtime Environment](#install-javascript-runtime-environment)
   - 1.2 [Virtual Box](#virtual-box)
     - 1.2.1 Installation
     - 1.2.2 Configuration
@@ -70,7 +70,7 @@ openssl sqlite3 zlib1g zlib1g-dev pkg-config
 The choice is to use git as distributed version control system.
 To install it run `sudo apt-get install git` or `sudo apt-get install git-core` in your terminal.
 
-##### 1.1.5 Install a Javascrip Runtime Environment
+##### 1.1.5 Install Javascrip Runtime Environment
 
 The choice is to use node.js. Open your terminal and run `sudo apt-get install nodejs`.
 
