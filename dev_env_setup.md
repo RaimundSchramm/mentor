@@ -8,11 +8,11 @@ Contents:
 
 - 1. [Set up OS (Operating System)](#1-set-up-os-operating-system)
   - 1.1 [Ubuntu](#11-ubuntu)
-    - 1.1.1 [Installation](#111installation)
-    - 1.1.2 [Update](#112update)
-    - 1.1.3 [Install packed software and libraries](#113install-packed-software-and-libraries)
-    - 1.1.4 [Install version control](#114install-version-control)
-    - 1.1.5 [Install Javascript Runtime Environment](#115install-javascript-runtime-environment)
+    - 1.1.1 [Installation](#111-installation)
+    - 1.1.2 [Update](#112-update)
+    - 1.1.3 [Install packed software and libraries](#113-install-packed-software-and-libraries)
+    - 1.1.4 [Install version control](#114-install-version-control)
+    - 1.1.5 [Install Javascript Runtime Environment](#115-install-javascript-runtime-environment)
   - 1.2 [Virtual Box](#virtual-box)
     - 1.2.1 Installation
     - 1.2.2 Configuration
