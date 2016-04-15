@@ -18,7 +18,7 @@ Contents:
     - 1.2.2 Configuration
       - 1.2.2.2 [Network](#1222-network)
     - 1.2.3 Update
-- 2. [Setup RVM (Ruby Version Manager)](#setup-rvm-ruby-version-manager)
+- 2. [Setup RVM (Ruby Version Manager)](#2-setup-rvm-ruby-version-manager)
   - 2.1 [Install](#21-installation)
   - 2.2 [Configure](#22-configure)
   - 2.3 [Configure Rubygems](#23-configure-rubygems)
@@ -134,7 +134,7 @@ For further .rc files see [this blogpost](http://www.justinweiss.com/articles/fa
 
 #### 2.4 Update
 
-Install RVM like explained on the [official page](https://rvm.io/rvm/upate). In this guide installation as single user is chosen.
+Install RVM like explained on the [official page](https://rvm.io/rvm/upgrading). In this guide installation as single user is chosen.
 
 -
 
