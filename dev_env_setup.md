@@ -8,7 +8,7 @@ Contents:
 
 - 1. [Set up OS (Operating System)](#1-set-up-os-operating-system)
   - 1.1 [Ubuntu](#11-ubuntu)
-    - 1.1.1 [Installation](#111-installation)
+    - 1.1.1 [Install](#111-installation)
     - 1.1.2 [Update](#112-update)
     - 1.1.3 [Install packed software and libraries](#113-install-packed-software-and-libraries)
     - 1.1.4 [Install version control](#114-install-version-control)
@@ -18,11 +18,11 @@ Contents:
     - 1.2.2 Configuration
       - 1.2.2.2 [Network](#1222-network)
     - 1.2.3 Update
-- 2. Setup RVM (Ruby Version Manager)
-  - 2.2 Installation
-  - 2.3 Configure
-  - 2.4 Configure Rubygems
-  - 2.5 Update
+- 2. [Setup RVM (Ruby Version Manager)](#setup-rvm-ruby-version-manager)
+  - 2.1 [Install](#21-installation)
+  - 2.2 [Configure](#22-configure)
+  - 2.3 [Configure Rubygems](#23-configure-rubygems)
+  - 2.4 [Update](#24-update)
 - 3. Setup database
   - 3.1 Installation
   - 3.2 Configure app
@@ -113,15 +113,15 @@ All Ruby-versions will be managed with RVM.
 
 Note: To avoid any conflict it is better that no additional Ruby is installed outside RVM. If RVM is set up and used correctly than that should be no problem.
 
-#### 2.2 Installation
+#### 2.1 Installation
 
 Install RVM like explained on the [official page](https://rvm.io/rvm/install). In this guide installation as single user is chosen.
 
-#### 2.3 Configure
+#### 2.2 Configure
 
 Set terminal to run command as a login shell. Terminal Menue Bar -> Edit -> Profile Preferences -> Title and Command -> Run as Login Shell.
 
-#### 2.4 Configure Rubygems
+#### 2.3 Configure Rubygems
 
 Create a .gemrc file inside your home directory and fill it with the desired [options](http://guides.rubygems.org/command-reference/), for example:
 ```
@@ -132,7 +132,11 @@ gem: --no-document
 ```
 For further .rc files see [this blogpost](http://www.justinweiss.com/articles/fast-consistent-setup-for-your-ruby-and-rails-projects/)
 
-#### 2.5 Update
+#### 2.4 Update
+
+Install RVM like explained on the [official page](https://rvm.io/rvm/upate). In this guide installation as single user is chosen.
+
+-
 
 ## 3. Setup Database
 ### 3.1 Postgresql
