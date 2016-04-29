@@ -14,6 +14,7 @@ Codeschool:
 - [Markdown](#markdown)
 - [Typography](#typography)
   - [Typeface](#typeface)
+- [Best Practices](#best-practices)
 
 -
 
@@ -59,5 +60,11 @@ Have a template of each relevant element and class with sample text.
 | Sans-Serif    | Geometric     | Century Gothic, Exo, Futura, Raleway, Roboto | Science, Architecture |
 |               | Humanist      | Cabin, Droid Sans, Gill Sans, Open Sans, Verdana | Government, Education |
 |               | Transitional  | Helvetica, Lato, PT Sans, Source Sans Pro, Trebuchet MS | Technology, Transportation |
+
+-
+
+##### Best Practices
+
+SMACCS
 
 -
