@@ -8,10 +8,20 @@ Codeschool:
 
 ##### Contents
 
+- [Basic Tech Stack](#basic-tech-stack)
+- [Enhanced Tech Stack](#enhanced-tech-stack)
 - [Style Guide](#style-guide)
 - [Markdown](#markdown)
 - [Typography](#typography)
   - [Typeface](#typeface)
+
+-
+
+##### Basic Tech Stack
+
+The main tools for Web Design are:
+- Hypertext Markup Language (HTML) for semantically arranging content which users request and view with their Web Browser
+- Cascading Style Sheets (CSS) for adding styles to display the content in different ways: layout, typography, colors
 
 ##### Style Guide
 
