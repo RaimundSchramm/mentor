@@ -23,6 +23,17 @@ The main tools for Web Design are:
 - Hypertext Markup Language (HTML) for semantically arranging content which users request and view with their Web Browser
 - Cascading Style Sheets (CSS) for adding styles to display the content in different ways: layout, typography, colors
 
+-
+
+##### Enhanced Tech Stack
+
+Additional tools I prefer when developing for the Web usually with Ruby on Rails are:
+- Sassy Sass (SASS) for the best readability
+- HAML or Slim for the best readability
+- Twitter Bootstrap for rapid prototyping or just its nice features
+
+-
+
 ##### Style Guide
 
 Create a Style Guide for each app.
