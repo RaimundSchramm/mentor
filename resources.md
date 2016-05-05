@@ -9,8 +9,9 @@
   * [Frontend](#frontend)
 * [Casts and Talks](#casts-and-talks)
   * [Robert C. Martin](#robert-c-martin)
-  * Technical Onboarding, Education, Mentoring
-   * [Technical Onboarding](#technical-onboarding)
+  * [Technical Onboarding](#technical-onboarding)
+   * [Training and Mentoring](#kate-heddleston)
+   * [Internal Education](#chuck-lauer-vose)
 * [Blogs](#blogs)
 
 =
@@ -126,10 +127,10 @@ _Webdesign_
 
 ##### Technical Onboarding
 ###### Kate Heddleston
-- [Technical Onboarding, Training and Mentoring](http://confreaks.com/videos/4164-gogaruco2014-technical-onboarding-training-and-mentoring)
+- [Training and Mentoring](http://confreaks.com/videos/4164-gogaruco2014-technical-onboarding-training-and-mentoring)
 
 ###### Chuck Lauer Vose
-- [Technical Onboarding, Internal Education](http://confreaks.tv/videos/railsconf2014-building-kick-ass-internal-education-programs-for-large-and-small-budgets)
+- [Internal Education](http://confreaks.tv/videos/railsconf2014-building-kick-ass-internal-education-programs-for-large-and-small-budgets)
 
 =
 #####Blogs
