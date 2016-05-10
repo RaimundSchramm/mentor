@@ -1,5 +1,21 @@
 # ROOD - Ruby Object Oriented Design
 
+## Contents
+
+- [Classes and Modules](#classes-and-modules)
+
+-
+
+### Classes and Modules
+
+On one hand arranging code in any Model-View-Controller(MVC)-App can lead to a so-called God-Class. Using this approach leads to very few and on a file-and-path-level easily maintainable but codewise to huge, hard to read an maintainable parts.
+
+On the other hand applying the Single Responsibility Principle(SRP) leads codewise to very readable and maintainable but on a file-and-path-level complex parts.
+
+The target app will probably be something in between both extremes.
+
+-
+
 1. Find an object
 
 Start by finding any object of interest from the domain you want to model.
