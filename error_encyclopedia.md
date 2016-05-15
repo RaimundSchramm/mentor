@@ -126,7 +126,7 @@ Usecase:
 - for ruby-version 2.2.2
 
 Problem:
-- some gems won't install ()
+- some gems won't install (json 1.8.3, debug_inspector 0.0.2, byebug 8.2.1 ,sqlite3 3.1.11)
 - sample console-output for json 1.8.3
 
 ```
