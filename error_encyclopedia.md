@@ -119,7 +119,15 @@ So setting rights with `chmod` for example [as explained here](http://stackoverf
 -
 
 ##### Error installing gems for ruby 2.2.2
-- after rvm-update to version 1.27.0
+
+Usecase:
+- trying to bundle new gemset
+- after rvm-update to version 1.27.0 (don't know if that's related)
+- for ruby-version 2.2.2
+
+Problem:
+- some gems won't install ()
+- sample output for json 1.8.3
 
 gem install json -v '1.8.3'
 Building native extensions.  This could take a while...
@@ -142,5 +150,8 @@ make failed, exit code 2
 
 Gem files will remain installed in /home.../.rvm/gems/ruby-2.2.2@whatdojuniorsgetpaid/gems/json-1.8.3 for inspection.
 Results logged to /home.../.rvm/gems/ruby-2.2.2@whatdojuniorsgetpaid/extensions/x86_64-linux/2.2.0/json-1.8.3/gem_make.out
+
+Solution:
+- don't understood but works for json [as recommended here](https://github.com/flori/json/issues/259)
 
 -
