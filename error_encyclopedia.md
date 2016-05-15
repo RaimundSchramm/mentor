@@ -127,8 +127,9 @@ Usecase:
 
 Problem:
 - some gems won't install ()
-- sample output for json 1.8.3
+- sample console-output for json 1.8.3
 
+```
 gem install json -v '1.8.3'
 Building native extensions.  This could take a while...
 ERROR:  Error installing json:
@@ -150,6 +151,7 @@ make failed, exit code 2
 
 Gem files will remain installed in /home.../.rvm/gems/ruby-2.2.2@whatdojuniorsgetpaid/gems/json-1.8.3 for inspection.
 Results logged to /home.../.rvm/gems/ruby-2.2.2@whatdojuniorsgetpaid/extensions/x86_64-linux/2.2.0/json-1.8.3/gem_make.out
+```
 
 Solution:
 - don't understood but works for json [as recommended here](https://github.com/flori/json/issues/259)
