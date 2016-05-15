@@ -11,6 +11,7 @@ This is to help you quickly if you make the same error again.
 - 2. [RVM Path Error](#2-rvm-path-error)
 - 3. [Firefox-Error while running tests](#3-firefox-error-while-running-tests)
 - 4. [WAI-error Rails has_secure_password](#4-wai-error-rails-has_secure_password)
+- 5. [Error installing gems for ruby 2.2.2](#error-installing-gems-for-ruby-2.2.2)
 
 ---
 
@@ -114,5 +115,32 @@ Only assert_recognizes works correctly.
 
 Hm, I think this rights-issue is because of copying it (backup) from other user (different OS, different user).
 So setting rights with `chmod` for example [as explained here](http://stackoverflow.com/questions/23297832/weird-rails-error-permission-denied-bin-rails-for-old-rails-apps).
+
+-
+
+##### Error installing gems for ruby 2.2.2
+- after rvm-update to version 1.27.0
+
+gem install json -v '1.8.3'
+Building native extensions.  This could take a while...
+ERROR:  Error installing json:
+	ERROR: Failed to build gem native extension.
+
+    /home/mund/.rvm/rubies/ruby-2.2.2/bin/ruby -r ./siteconf20160515-13050-6fpwhc.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling generator.c
+linking shared-object json/ext/generator.so
+/usr/bin/ld: cannot find -lgmp
+collect2: error: ld returned 1 exit status
+make: *** [generator.so] Error 1
+
+make failed, exit code 2
+
+Gem files will remain installed in /home.../.rvm/gems/ruby-2.2.2@whatdojuniorsgetpaid/gems/json-1.8.3 for inspection.
+Results logged to /home.../.rvm/gems/ruby-2.2.2@whatdojuniorsgetpaid/extensions/x86_64-linux/2.2.0/json-1.8.3/gem_make.out
 
 -
