@@ -11,7 +11,7 @@ This is to help you quickly if you make the same error again.
 - 2. [RVM Path Error](#2-rvm-path-error)
 - 3. [Firefox-Error while running tests](#3-firefox-error-while-running-tests)
 - 4. [WAI-error Rails has_secure_password](#4-wai-error-rails-has_secure_password)
-- 5. [Error installing gems for ruby 2.2.2](#error-installing-gems-for-ruby-2.2.2)
+- 5. [Error installing gems for ruby 2.2.2](#error-installing-gems-for-ruby-222)
 
 ---
 
