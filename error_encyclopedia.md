@@ -161,6 +161,7 @@ Solution:
 
 ##### If you don't behave railsy
 
+1)
 If you implement a REST-resource for whatever reason Rails-scaffold-style and testdriven but don't respect the 'order' you could encounter path-errors because of not yet implemented routes.
 
 For example I just wanted to testdrive the edit-action before having the show-action. Because I am not always aware of all the framework-magic I forgot that the edit-form uses a route to the show-action which gave me the error
@@ -171,5 +172,8 @@ Did you mean?  trips_path
 ```
 
 So either know every detail or follow a chronological order :D . First approach preferred ;) .
+
+2)
+Same as above, if you use respond_to do |format| in controller every response should go into format.xy {} notation or else you get an unknown format error which may irritate you.
 
 ---
