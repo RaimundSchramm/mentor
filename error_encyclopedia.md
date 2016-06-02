@@ -12,6 +12,7 @@ This is to help you quickly if you make the same error again.
 - 3. [Firefox-Error while running tests](#3-firefox-error-while-running-tests)
 - 4. [WAI-error Rails has_secure_password](#4-wai-error-rails-has_secure_password)
 - 5. [Error installing gems for ruby 2.2.2](#error-installing-gems-for-ruby-222)
+- 6. [if you don't behave railsy](#if-you-dont-behave-railsy)
 
 ---
 
@@ -157,3 +158,18 @@ Solution:
 - don't understood but works for json [as recommended here](https://github.com/flori/json/issues/259)
 
 -
+
+##### If you don't behave railsy
+
+If you implement a REST-resource for whatever reason Rails-scaffold-style and testdriven but don't respect the 'order' you could encounter path-errors because of not yet implemented routes.
+
+For example I just wanted to testdrive the edit-action before having the show-action. Because I am not always aware of all the framework-magic I forgot that the edit-form uses a route to the show-action which gave me the error
+
+```ruby
+ActionView::Template::Error: ActionView::Template::Error: undefined method `your_resource_path' for <<Class...>
+Did you mean?  trips_path
+```
+
+So either know every detail or follow a chronological order :D . First approach preferred ;) .
+
+---
