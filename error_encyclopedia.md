@@ -13,6 +13,7 @@ This is to help you quickly if you make the same error again.
 - 4. [WAI-error Rails has_secure_password](#4-wai-error-rails-has_secure_password)
 - 5. [Error installing gems for ruby 2.2.2](#error-installing-gems-for-ruby-222)
 - 6. [if you don't behave railsy](#if-you-dont-behave-railsy)
+- 7. [Guard - Increasing the amount of inotify watchers](#increasing-the-amount-of-inotify-watchers)
 
 ---
 
@@ -175,5 +176,19 @@ So either know every detail or follow a chronological order :D . First approach 
 
 2)
 Same as above, if you use respond_to do |format| in controller every response should go into format.xy {} notation or else you get an unknown format error which may irritate you.
+
+---
+
+#### Increasing the amount of inotify watchers
+
+Starting guard results in following error message
+
+...
+
+https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers
+
+```
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+```
 
 ---
